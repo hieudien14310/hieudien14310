@@ -24,8 +24,8 @@ Hi, I'm <b>Tran Trung Hieu</b>, a passionate self-taught Full Stack Web Develope
 - Sinh ngày: 03-10-1996
 - Quê quán: Quảng Ngãi
 - 👨🏽‍💻 Đã tốt nghiệp đại học [Văn Lang](https://www.vanlanguni.edu.vn/) 7/2019
-- Các công đã làm: Hitachi Vantara Việt Nam
-- Đang làm việc tại: KingFood 
+- Sở thích: Đọc truyện, chơi game, bơi lội và đi du lịch. 
+- Là người vui vẻ, hòa đồng và rất thích nói chuyện với người khác.
 
 <!-- <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>I love connecting with different people</b> so if you want to say <b>hi, I'll be happy to meet you more!</b> :)</em> -->
 
