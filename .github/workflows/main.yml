@@ -20,7 +20,7 @@ jobs:
     - run: npm ci
     - name: Generate quote
       # Chạy script để gọi API lấy quote sau đó sửa file README.md
-      run: npm run generate
+      run: npm run start
     - name: Update README.md
       # Push file README.md đã được thay đổi lên github
       run: |
