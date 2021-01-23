@@ -1,0 +1,23 @@
+{
+  "name": "hieudien14310",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hieudien14310/hieudien14310.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hieudien14310/hieudien14310/issues"
+  },
+  "homepage": "https://github.com/hieudien14310/hieudien14310#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
