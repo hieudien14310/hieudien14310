@@ -47,17 +47,7 @@ Hi, I'm <b>Tran Trung Hieu</b>, a passionate self-taught Full Stack Web Develope
 <img alt="Nodejs" src="https://img.shields.io/badge/-Nodejs-43853d?style=flat-square&logo=Node.js&logoColor=white" />
 <img alt="gitlab" src="https://camo.githubusercontent.com/35b0a4cb52ffc87fc7c464f9f2527dec988b663d0ae86bf8d542ae5649bd2c9e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4769744c61622d4643413132313f7374796c653d666c61742d737175617265266c6f676f3d6769746c6162" />
 ---
-📊 **This Week I Spent My Time On:**
-<!--START_SECTION:waka-->
-```text
-JavaScript   6 hrs 33 mins   ███████████████████▒░░░░░   77.77 % 
-C++          47 mins         ██▒░░░░░░░░░░░░░░░░░░░░░░   09.33 % 
-CSS          21 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.25 % 
-JSON         15 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.10 % 
-TypeScript   7 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.43 % 
-```
-<!--END_SECTION:waka-->
----
+
 **📈 My GitHub Stats**
 
 
