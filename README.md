@@ -49,7 +49,7 @@ Table
 
 ---
 Quote
-<p align="left" style="color:tomato;">! One voice can change a room, and if one voice can change a room, then it can change a city, and if it can change a city, it can change a state, and if it change a state, it can change a nation, and if it can change a nation, it can change the world. Your voice can change the world.</p>
+<p align="left" style="color:tomato;">![#f03c15](One voice can change a room, and if one voice can change a room, then it can change a city, and if it can change a city, it can change a state, and if it change a state, it can change a nation, and if it can change a nation, it can change the world. Your voice can change the world.)</p>
 <p align="right"><b>Barack Obama</b></p>
   ```diff
 - text in red
