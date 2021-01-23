@@ -48,10 +48,10 @@ Hi, I'm <b>Tran Trung Hieu</b>, a passionate self-taught Full Stack Web Develope
 <img alt="gitlab" src="https://camo.githubusercontent.com/35b0a4cb52ffc87fc7c464f9f2527dec988b663d0ae86bf8d542ae5649bd2c9e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4769744c61622d4643413132313f7374796c653d666c61742d737175617265266c6f676f3d6769746c6162" />
 ---
 
-📈 My GitHub Stats
+**📈 My GitHub Stats**
 
 
 <p float="left">
     <img width="420px" src="https://github-readme-stats.vercel.app/api?username=hieudien14310&show_icons=true&theme=gotham" alt="hieudien14310" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hieudien14310&theme=gotham&layout=compact" />
+    <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hieudien14310&theme=gotham&layout=compact" />
 </p>
