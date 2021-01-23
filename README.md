@@ -1,5 +1,5 @@
 ### Hey there!!! <img src="https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/hi.gif" width="25px">
-<h1 align="center">Welcome to my profile!!</h1>
+<h1 align="center"><img src="https://media.giphy.com/media/xUPGGDNsLvqsBOhuU0/giphy.gif" height="65px" width="90px"> to my profile!!</h1>
 Hi, I'm <b>Tran Trung Hieu</b>, a passionate self-taught Full Stack Web Developer with 2 years of experience 🚀 from Viet Nam.
 <br>
 <br>
