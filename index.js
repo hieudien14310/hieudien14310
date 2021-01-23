@@ -6,13 +6,7 @@ const getQuote = async () => {
     const { data } = await axios.get("https://quotes.rest/qod?language=en&quot");
     const quote = data.contents.quotes[0].quote;
     const author = data.contents.quotes[0].author;
-
-    // console.log("new quote", `"${quote}"`);
-
-    return {
-      quote,
-      author,
-    };
+    return { quote,author };
   } catch (err) {
     console.error(err.message);
     return {};
@@ -20,8 +14,12 @@ const getQuote = async () => {
 };
 
 const generate = async () => {
-  const { quote, author } = await getQuote();
-
+    const { quote, author } = await getQuote();
+    const birthday = [10 ,3 ,1996];
+    const dayNow = new Date(Date.now()).toLocaleDateString("en-VN");
+    console.log(dayNow);
+    const currently = dayNow.split('/');
+    const days = Math.round((new Date(currently[2], currently[0] - 1, currently[1]) - new Date(birthday[2], birthday[0] -1, birthday[1])) / (1000*60*60*24) );
   if (!quote) return;
   const content = `### Hey there!!! <img src="https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/hi.gif" width="25px">
 <h1 align="center">Welcome to my profile!!</h1>
@@ -32,11 +30,11 @@ Hi, I'm <b>Tran Trung Hieu</b>, a passionate self-taught Full Stack Web Develope
 
 
 ### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="35px"> A little more about me: 
-- Sinh ngày: 03-10-1996
-- Quê quán: Quảng Ngãi
-- 👨🏽‍💻 Đã tốt nghiệp đại học [Văn Lang](https://www.vanlanguni.edu.vn/) vào 7/2019
-- Chuyên ngành: Kỹ sư phần mềm
-- Sở thích: Đọc truyện, chơi game, bơi lội và đi du lịch. 
+- Sinh ngày    🎂️: 03-10-1996. Được ${days} tồn tại trên đời.
+- Quê quán     🏘️: Quảng Ngãi
+- Học vấn      📖️: Đã 👨‍🎓️ đại học [Văn Lang](https://www.vanlanguni.edu.vn/) vào 7/2019
+- Chuyên ngành 👨‍🏫️: Kỹ sư phần mềm
+- Sở thích     😍️: Đọc truyện, chơi 🎮️, 🏊‍♀️️, đá ⚽️, leo 🧗‍♂️️ và đi du lịch. 
 - Là người vui vẻ, hòa đồng và rất thích nói chuyện với người khác.
 ---
 **Languages and Tools:**  
@@ -76,7 +74,7 @@ Table
 Quote
 <p align="left" style="color:tomato;">${quote}</p>
 <p align="right"><b>${author}</b></p>
-  `
+`
   fs.writeFileSync("README.md", content);
 };
 
