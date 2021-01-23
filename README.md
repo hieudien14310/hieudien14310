@@ -51,7 +51,4 @@ Hi, I'm <b>Tran Trung Hieu</b>, a passionate self-taught Full Stack Web Develope
 📈 My GitHub Stats
 
 
-<a href="https://www.adamalston.com/">
-<img height="137px" src="https://github-readme-stats.vercel.app/api?username=hieudien14310&show_icons=true&theme=gotham" alt="hieudien14310" />
-<img height="137px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hieudien14310&theme=gotham" />
-</a>
+<img height="137px" src="https://github-readme-stats.vercel.app/api?username=hieudien14310&show_icons=true&theme=gotham" alt="hieudien14310" /> | <img height="137px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hieudien14310&theme=gotham" />
