@@ -55,3 +55,11 @@ Hi, I'm <b>Tran Trung Hieu</b>, a passionate self-taught Full Stack Web Develope
     <img width="420px" src="https://github-readme-stats.vercel.app/api?username=hieudien14310&show_icons=true&theme=gotham" alt="hieudien14310" />
     <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hieudien14310&theme=gotham&layout=compact" />
 </p>
+
+
+---
+Table 
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      |
