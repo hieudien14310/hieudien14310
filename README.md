@@ -52,8 +52,6 @@ Hi, I'm <b>Tran Trung Hieu</b>, a passionate self-taught Full Stack Web Develope
 
 
 <p float="left">
-    <img src="https://github-readme-stats.vercel.app/api?username=hieudien14310&show_icons=true&theme=gotham" alt="hieudien14310" />
+    <img width="420px" src="https://github-readme-stats.vercel.app/api?username=hieudien14310&show_icons=true&theme=gotham" alt="hieudien14310" />
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hieudien14310&theme=gotham&layout=compact" />
 </p>
-
-|  <img src="https://github-readme-stats.vercel.app/api?username=hieudien14310&show_icons=true&theme=gotham" alt="hieudien14310" />| <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hieudien14310&theme=gotham&layout=compact" />
