@@ -1,19 +1,4 @@
 ### Hey there!!! <img src="https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/hi.gif" width="25px">
-
-
-<!-- **hieudien14310/hieudien14310** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ... -->
-
 <h1 align="center">Welcome to my profile!!</h1>
 Hi, I'm <b>Tran Trung Hieu</b>, a passionate self-taught Full Stack Web Developer with 2 years of experience 🚀 from Viet Nam.
 <br>
@@ -28,9 +13,6 @@ Hi, I'm <b>Tran Trung Hieu</b>, a passionate self-taught Full Stack Web Develope
 - Chuyên ngành: Kỹ sư phần mềm
 - Sở thích: Đọc truyện, chơi game, bơi lội và đi du lịch. 
 - Là người vui vẻ, hòa đồng và rất thích nói chuyện với người khác.
-
-<!-- <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>I love connecting with different people</b> so if you want to say <b>hi, I'll be happy to meet you more!</b> :)</em> -->
-
 ---
 **Languages and Tools:**  
 <img alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=flat-square&logo=react&logoColor=white" />
@@ -67,3 +49,6 @@ Table
 
 ---
 Quote
+<p align="left">One voice can change a room, and if one voice can change a room, then it can change a city, and if it can change a city, it can change a state, and if it change a state, it can change a nation, and if it can change a nation, it can change the world. Your voice can change the world.</p>
+<p align="right">Barack Obama</p>
+  
