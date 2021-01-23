@@ -74,8 +74,8 @@ Table
 
 ---
 Quote
-<p align="left">${quote}</p>
-<p align="right">${author}</p>
+<p align="left" style="color:tomato;">${quote}</p>
+<p align="right"><b>${author}</b></p>
   `
   fs.writeFileSync("README.md", content);
 };
