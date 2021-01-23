@@ -1,5 +1,5 @@
 ### Hey there!!! <img src="https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/hi.gif" width="25px">
-<h1 align="center"><img src="https://media.giphy.com/media/xUPGGDNsLvqsBOhuU0/giphy.gif" height="55px" width="70px"> to my profile!!</h1>
+<h1 align="center">Welcome to my profile!!</h1>
 Hi, I'm <b>Tran Trung Hieu</b>, a passionate self-taught Full Stack Web Developer with 2 years of experience 🚀 from Viet Nam.
 <br>
 <br>
@@ -7,7 +7,7 @@ Hi, I'm <b>Tran Trung Hieu</b>, a passionate self-taught Full Stack Web Develope
 
 
 ### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="35px"> A little more about me: 
-- Sinh ngày    🎂️: 03-10-1996. Được 8878 tồn tại trên đời.
+- Sinh ngày    🎂️: 03-10-1996. Được <b>8879</b> ngày tồn tại trên đời.
 - Quê quán     🏘️: Quảng Ngãi
 - Học vấn      📖️: Đã 👨‍🎓️ đại học [Văn Lang](https://www.vanlanguni.edu.vn/) vào 7/2019
 - Chuyên ngành 👨‍🏫️: Kỹ sư phần mềm
@@ -18,8 +18,6 @@ Hi, I'm <b>Tran Trung Hieu</b>, a passionate self-taught Full Stack Web Develope
 <img alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=flat-square&logo=react&logoColor=white" />
 <img alt="Docker" src="https://img.shields.io/badge/-Docker-46a2f1?style=flat-square&logo=docker&logoColor=white" />
 <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
-<img alt="Heroku" src="https://img.shields.io/badge/-Heroku-430098?style=flat-square&logo=heroku&logoColor=white" />
-<img alt="redux" src="https://img.shields.io/badge/-Redux-764ABC?style=flat-square&logo=redux&logoColor=white" />
 <img alt="git" src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white" />
 <img alt="angular" src="https://img.shields.io/badge/-Angular-DD0031?style=flat-square&logo=angular&logoColor=white" />
 <img alt="npm" src="https://img.shields.io/badge/-NPM-CB3837?style=flat-square&logo=npm&logoColor=white" />
@@ -40,11 +38,11 @@ Hi, I'm <b>Tran Trung Hieu</b>, a passionate self-taught Full Stack Web Develope
 
 
 ---
-Table 
-| Left-aligned | Center-aligned | Right-aligned |
-| :---         |     :---:      |          ---: |
-| git status   | git status     | git status    |
-| git diff     | git diff       | git diff      |
+My Experience
+| Thời gian    | Tên công ty    | Trách nghiệm  | Công nghệ     |
+| :---         |     :---:      |          ---: |          ---: |
+| 7/2019 -> 11/2020  | Hitachi Vantara Việt Nam     | Phát triển và bảo trì các dự án outsource    | JAVA, ANGULAR, SVN,    |
+| git diff     | git diff       | git diff      | git status    |
 
 
 ---
@@ -53,4 +51,4 @@ Table
 
 `One voice can change a room, and if one voice can change a room, then it can change a city, and if it can change a city, it can change a state, and if it change a state, it can change a nation, and if it can change a nation, it can change the world. Your voice can change the world.`
 </p>
-<p align="right"><img src="https://steamuserimages-a.akamaihd.net/ugc/1678120858080078295/54A297213A550FA1C2773D7A991D89BD21756EAA/" height="50px" width="50px" > <b>Barack Obama</b></p>
+<p align="right"><b>Barack Obama</b></p>
