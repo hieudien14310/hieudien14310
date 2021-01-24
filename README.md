@@ -1,5 +1,5 @@
 ### Hey there!!! <img src="https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/hi.gif" width="25px">
-<h1 align="center"><img src="https://media.giphy.com/media/xUPGGDNsLvqsBOhuU0/giphy.gif" height="65px" width="90px"> to my profile!!</h1>
+<h1 align="center">Welcome to my profile!!</h1>
 Hi, I'm <b>Tran Trung Hieu</b>, a passionate self-taught Full Stack Web Developer with 2 years of experience 🚀 from Viet Nam.
 <br>
 <br>
@@ -49,6 +49,6 @@ My Experience
 **Quote**
 <p align="left" style="color:tomato;">
 
-`One voice can change a room, and if one voice can change a room, then it can change a city, and if it can change a city, it can change a state, and if it change a state, it can change a nation, and if it can change a nation, it can change the world. Your voice can change the world.`
+`All courses of action are risky, so prudence is not in avoiding danger (it's impossible), but calculating risk and acting decisively. Make mistakes of ambition and not mistakes of sloth. Develop the strength to do bold things, not the strength to suffer.`
 </p>
-<p align="right"><b>Barack Obama</b></p>
+<p align="right"><b>Niccolo Machiavelli</b></p>
