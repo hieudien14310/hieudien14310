@@ -21,7 +21,7 @@ const generate = async () => {
     const days = Math.round((new Date(currently[2], currently[0] - 1, currently[1]) - new Date(birthday[2], birthday[0] -1, birthday[1])) / (1000*60*60*24) );
   if (!quote) return;
   const content = `### Hey there!!! <img src="https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/hi.gif" width="25px">
-<h1 align="center">Welcome to my profile!!</h1>
+<h1 align="center"><img src="https://media.giphy.com/media/xUPGGDNsLvqsBOhuU0/giphy.gif" height="65px" width="90px"> to my profile!!</h1>
 Hi, I'm <b>Tran Trung Hieu</b>, a passionate self-taught Full Stack Web Developer with 2 years of experience 🚀 from Viet Nam.
 <br>
 <br>
