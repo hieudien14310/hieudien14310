@@ -14,7 +14,7 @@ Hi, I'm <b>Tran Trung Hieu</b>, a passionate self-taught Full Stack Web Develope
 - Sở thích     😍️: Đọc truyện, chơi 🎮️, 🏊‍♀️️, đá ⚽️, leo 🧗‍♂️️ và đi du lịch. 
 - Là người vui vẻ, hòa đồng và rất thích nói chuyện với người khác.
 ---
-**Languages and Tools:**  
+**Languages and Tools: 🛠️**  
 <img alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=flat-square&logo=react&logoColor=white" />
 <img alt="Docker" src="https://img.shields.io/badge/-Docker-46a2f1?style=flat-square&logo=docker&logoColor=white" />
 <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
@@ -38,19 +38,11 @@ Hi, I'm <b>Tran Trung Hieu</b>, a passionate self-taught Full Stack Web Develope
 
 
 ---
-My Experience
+### My Experience 🎊️
 | Thời gian    | Tên công ty    | Trách nghiệm  | Công nghệ     |
 | :---         |     :---:      |          ---: |          ---: |
 | 7/2019 -> 11/2020  | Hitachi Vantara Việt Nam     | Phát triển và bảo trì các dự án outsource    | JAVA, ANGULAR, SVN,    |
 | git diff     | git diff       | git diff      | git status    |
-
-
----
-<!--START_SECTION:waka-->
-```text
-No Activity tracked this Week
-```
-<!--END_SECTION:waka-->
 
 
 ---
