@@ -7,7 +7,7 @@ Hi, I'm <b>Tran Trung Hieu</b>, a passionate self-taught Full Stack Web Develope
 
 
 ### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="35px"> A little more about me: 
-- Sinh ngày    🎂️: 03-10-1996. Được <b>8879</b> ngày tồn tại trên đời.
+- Sinh ngày    🎂️: 03-10-1996. Được <b>8880</b> ngày tồn tại trên đời.
 - Quê quán     🏘️: Quảng Ngãi
 - Học vấn      📖️: Đã 👨‍🎓️ đại học [Văn Lang](https://www.vanlanguni.edu.vn/) vào 7/2019
 - Chuyên ngành 👨‍🏫️: Kỹ sư phần mềm
@@ -47,9 +47,6 @@ Hi, I'm <b>Tran Trung Hieu</b>, a passionate self-taught Full Stack Web Develope
 
 ---
 <!--START_SECTION:waka-->
-```text
-No Activity tracked this Week
-```
 <!--END_SECTION:waka-->
 
 
@@ -57,6 +54,6 @@ No Activity tracked this Week
 **Quote**
 <p align="left" style="color:tomato;">
 
-`All courses of action are risky, so prudence is not in avoiding danger (it's impossible), but calculating risk and acting decisively. Make mistakes of ambition and not mistakes of sloth. Develop the strength to do bold things, not the strength to suffer.`
+`Climb the mountains and get their good tidings. Nature's peace will flow into you as sunshine flows into trees. The winds will blow their own freshness into you, and the storms their energy, while cares will drop away from you like the leaves of Autumn.`
 </p>
-<p align="right"><b>Niccolo Machiavelli</b></p>
+<p align="right"><b>John Muir</b></p>
