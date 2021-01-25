@@ -68,4 +68,4 @@ YAML         4 mins          ⣿⣿⣦⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 
 
 
-<img src="https://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/1145360/db6144fa6b4cf2dcacd9d2812b652ee27991a551.png" width="20px" height="20px">
+<img src="https://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/1145360/db6144fa6b4cf2dcacd9d2812b652ee27991a551.png" width="40px" height="40px">
