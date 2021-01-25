@@ -66,7 +66,6 @@ YAML         4 mins          ⣿⣿⣦⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 <p align="right"><b>Niccolo Machiavelli</b></p>
 
 
-<p align="right"><b>John Muir</b></p>
 
 
-<img src="https://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/1145360/db6144fa6b4cf2dcacd9d2812b652ee27991a551.png">
+<img src="https://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/1145360/db6144fa6b4cf2dcacd9d2812b652ee27991a551.png" width="20px" height="20px">
