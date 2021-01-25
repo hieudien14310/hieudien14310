@@ -41,19 +41,12 @@ Hi, I'm <b>Tran Trung Hieu</b>, a passionate self-taught Full Stack Web Develope
 ### My Experience 🎊️
 | Thời gian    | Tên công ty    | Trách nghiệm  | Công nghệ     |
 | :---         |     :---:      |          ---: |          ---: |
-| 7/2019 -> 11/2020  | Hitachi Vantara Việt Nam     | Phát triển và bảo trì các dự án outsource    | JAVA, ANGULAR, SVN,    |
+|              |                |               |               |
 | git diff     | git diff       | git diff      | git status    |
 
 
 ---
 <!--START_SECTION:waka-->
-```text
-Week: 17 January, 2021 - 24 January, 2021
-
-JavaScript   37 mins         ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣀⣀⣀⣀⣀   78.69 % 
-Markdown     5 mins          ⣿⣿⣷⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   11.42 % 
-YAML         4 mins          ⣿⣿⣦⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   09.89 % 
-```
 <!--END_SECTION:waka-->
 
 
@@ -63,8 +56,4 @@ YAML         4 mins          ⣿⣿⣦⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 
 `Climb the mountains and get their good tidings. Nature's peace will flow into you as sunshine flows into trees. The winds will blow their own freshness into you, and the storms their energy, while cares will drop away from you like the leaves of Autumn.`
 </p>
-<p align="right"><b>Niccolo Machiavelli</b></p>
-
-
-
-
+<p align="right"><b>John Muir</b></p>
