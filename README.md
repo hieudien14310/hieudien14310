@@ -47,6 +47,7 @@ Hi, I'm <b>Tran Trung Hieu</b>, a passionate self-taught Full Stack Web Develope
 
 ---
 <!--START_SECTION:waka-->
+sdjkasdjkahdkahdkashkjhkjshdkjahkdhk
 ```text
 Week: 23 January, 2021 - 30 January, 2021
 
