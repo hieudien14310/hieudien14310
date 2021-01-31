@@ -7,7 +7,7 @@ Hi, I'm <b>Tran Trung Hieu</b>, a passionate self-taught Full Stack Web Develope
 
 
 ### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="35px"> A little more about me: 
-- Sinh ngày    🎂️: 03-10-1996. Được <b>8885</b> ngày tồn tại trên đời.
+- Sinh ngày    🎂️: 03-10-1996. Được <b>8886</b> ngày tồn tại trên đời.
 - Quê quán     🏘️: Quảng Ngãi
 - Học vấn      📖️: Đã 👨‍🎓️ đại học [Văn Lang](https://www.vanlanguni.edu.vn/) vào 7/2019
 - Chuyên ngành 👨‍🏫️: Kỹ sư phần mềm
@@ -47,15 +47,6 @@ Hi, I'm <b>Tran Trung Hieu</b>, a passionate self-taught Full Stack Web Develope
 
 ---
 <!--START_SECTION:waka-->
-```text
-Week: 22 January, 2021 - 29 January, 2021
-
-JavaScript   21 hrs 15 mins  ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   59.39 % 
-JSX          13 hrs 32 mins  ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   37.84 % 
-JSON         27 mins         ⣤⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   01.27 % 
-Markdown     19 mins         ⣄⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   00.91 % 
-Git Config   5 mins          ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   00.25 % 
-```
 <!--END_SECTION:waka-->
 
 
@@ -63,6 +54,6 @@ Git Config   5 mins          ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 **Quote**
 <p align="left" style="color:tomato;">
 
-`You must have a positive self perception in order to transcend anything.`
+`The last time doesn't exist. It's only this time. And everything is going to be different this time. There's only now.`
 </p>
-<p align="right"><b>Steve Maraboli</b></p>
+<p align="right"><b>Bill Murray</b></p>
