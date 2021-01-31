@@ -46,6 +46,7 @@ Hi, I'm <b>Tran Trung Hieu</b>, a passionate self-taught Full Stack Web Develope
 
 
 ---
+<span style="color:blue">some *This is Blue italic.* text</span>
 <!--START_SECTION:waka-->
 ```text
 Week: 23 January, 2021 - 30 January, 2021
