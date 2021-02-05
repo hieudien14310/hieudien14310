@@ -7,7 +7,7 @@ Hi, I'm <b>Tran Trung Hieu</b>, a passionate self-taught Full Stack Web Develope
 
 
 ### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="35px"> A little more about me: 
-- Sinh ngày    🎂️: 03-10-1996. Được <b>8890</b> ngày tồn tại trên đời.
+- Sinh ngày    🎂️: 03-10-1996. Được <b>8891</b> ngày tồn tại trên đời.
 - Quê quán     🏘️: Quảng Ngãi
 - Học vấn      📖️: Đã 👨‍🎓️ đại học [Văn Lang](https://www.vanlanguni.edu.vn/) vào 7/2019
 - Chuyên ngành 👨‍🏫️: Kỹ sư phần mềm
@@ -47,15 +47,6 @@ Hi, I'm <b>Tran Trung Hieu</b>, a passionate self-taught Full Stack Web Develope
 
 ---
 <!--START_SECTION:waka-->
-```text
-Week: 27 January, 2021 - 03 February, 2021
-
-JavaScript   30 hrs 25 mins  ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⣀⣀⣀⣀⣀⣀⣀⣀⣀   61.92 % 
-JSX          17 hrs 42 mins  ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   36.03 % 
-Markdown     31 mins         ⣤⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   01.08 % 
-JSON         22 mins         ⣄⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   00.77 % 
-YAML         2 mins          ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   00.09 % 
-```
 <!--END_SECTION:waka-->
 
 
@@ -63,6 +54,6 @@ YAML         2 mins          ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 **Quote**
 <p align="left" style="color:tomato;">
 
-`When it comes to winning, you need the skill and the will.`
+`When you win, say nothing. When you lose, say less.`
 </p>
-<p align="right"><b>Frank Tyger</b></p>
+<p align="right"><b>Paul Brown</b></p>
