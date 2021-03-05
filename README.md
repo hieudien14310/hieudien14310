@@ -7,7 +7,7 @@ Hi, I'm <b>Tran Trung Hieu</b>, a passionate self-taught Full Stack Web Develope
 
 
 ### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="35px"> A little more about me: 
-- Sinh ngày    🎂️: 03-10-1996. Được <b>8918</b> ngày tồn tại trên đời.
+- Sinh ngày    🎂️: 03-10-1996. Được <b>8919</b> ngày tồn tại trên đời.
 - Quê quán     🏘️: Quảng Ngãi
 - Học vấn      📖️: Đã 👨‍🎓️ đại học [Văn Lang](https://www.vanlanguni.edu.vn/) vào 7/2019
 - Chuyên ngành 👨‍🏫️: Kỹ sư phần mềm
@@ -47,14 +47,6 @@ Hi, I'm <b>Tran Trung Hieu</b>, a passionate self-taught Full Stack Web Develope
 
 ---
 <!--START_SECTION:waka-->
-```text
-Week: 24 February, 2021 - 03 March, 2021
-
-JSX          27 hrs 38 mins  ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   59.42 % 
-JavaScript   18 hrs 44 mins  ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   40.30 % 
-JSON         3 mins          ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   00.13 % 
-TypeScript   2 mins          ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   00.08 % 
-```
 <!--END_SECTION:waka-->
 
 
@@ -62,9 +54,6 @@ TypeScript   2 mins          ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 **Quote**
 <p align="left" style="color:tomato;">
 
-`One does not accumulate but eliminate.
-It is not daily increase but daily
-decrease. The height of cultivation
-always runs to simplicity.`
+`Your success will not be determined by your gender or your ethnicity, but only on the scope of your dreams and your hard work to achieve them.`
 </p>
-<p align="right"><b>Bruce Lee</b></p>
+<p align="right"><b>Zaha Hadid</b></p>
