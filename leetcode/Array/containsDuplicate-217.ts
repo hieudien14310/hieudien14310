@@ -3,10 +3,12 @@
  */
 function containsDuplicate(nums: number[]): boolean {
 	let isDup: boolean = false
-	const hmNums: { [key: number]: number } = {}
+	const setNums: Set<number> = new Set()
 	for (let i = 0; i < nums.length; i++) {
-		if (hmNums[nums[i]]) isDup = true
-		else hmNums[nums[i]] = 1
+		if (setNums.has(nums[i])) {
+			isDup = true
+			break
+		} else setNums.add(nums[i])
 	}
 	return isDup
 }
