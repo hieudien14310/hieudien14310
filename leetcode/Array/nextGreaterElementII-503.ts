@@ -3,13 +3,13 @@
  */
 function nextGreaterElementsII(nums: number[]): number[] {
 	const result: number[] = []
-	const newNums: number[] = [...nums, ...nums]
+	const dupNums: number[] = [...nums, ...nums]
 	for (let i = 0; i < nums.length; i++) {
 		let count = 0
-		for (let j = i + 1; j < newNums.length; j++) {
-			if (newNums[i] < newNums[j]) {
+		for (let j = i + 1; j < dupNums.length; j++) {
+			if (dupNums[i] < dupNums[j]) {
 				count = 1
-				result.push(newNums[j])
+				result.push(dupNums[j])
 				break
 			}
 		}
