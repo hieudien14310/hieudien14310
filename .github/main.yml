@@ -1,0 +1,26 @@
+name: hieudien14310
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 14.15.4
+      - run: npm ci
+      - name: Generate quote
+        run: npm run start
+      - name: Update README.md
+        run: |
+          git config --global user.email "tranhieu14310@gmail.com"
+          git config --global user.name "hieudien14310"
+          git add .
+          git commit -m "Update README.md" || echo "No changes to commit"
+          git push
