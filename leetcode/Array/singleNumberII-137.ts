@@ -1,7 +1,7 @@
 /**
  * https://leetcode.com/problems/single-number-ii/
  */
-function singleNumber(nums: number[]): number {
+function singleNumberII(nums: number[]): number {
 	const hmNums: { [key: number]: number } = {}
 	for (let i = 0; i < nums.length; i++) {
 		if (nums[i] in hmNums) hmNums[nums[i]]++
@@ -15,4 +15,4 @@ function singleNumber(nums: number[]): number {
 		})
 	return result
 }
-console.log(singleNumber([0, 1, 0, 1, 0, 1, 99]))
+console.log(singleNumberII([0, 1, 0, 1, 0, 1, 99]))
