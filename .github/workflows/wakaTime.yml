@@ -3,8 +3,8 @@ name: Waka Readme
 on:
   workflow_dispatch:
   schedule:
-    # Runs at 12am UTC
-    - cron: "0 0 * * *"
+    # Lên lịch chạy hàng ngày vào lúc 00:00 UTC
+    - cron: '0 0 * * *'
 
 jobs:
   update-readme:
@@ -15,5 +15,5 @@ jobs:
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           SHOW_TITLE: true
-          COMMIT_MESSAGE: Updated the waka Time 
+          COMMIT_MESSAGE: Updated the waka Time
           BLOCKS: ⣀⣄⣤⣦⣶⣷⣿
