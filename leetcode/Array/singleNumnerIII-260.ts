@@ -1,7 +1,7 @@
 /**
  * https://leetcode.com/problems/single-number-iii/
  */
-function singleNumber(nums: number[]): number[] {
+function singleNumberIII(nums: number[]): number[] {
 	const hmNums: { [key: string]: any } = {}
 	for (let i = 0; i < nums.length; i++) {
 		if (nums[i] in hmNums) hmNums[nums[i]]++
@@ -13,4 +13,4 @@ function singleNumber(nums: number[]): number[] {
 	})
 	return result
 }
-console.log(singleNumber([1, 0]))
+console.log(singleNumberIII([1, 0]))
