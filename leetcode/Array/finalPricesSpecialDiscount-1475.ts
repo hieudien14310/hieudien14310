@@ -1,6 +1,8 @@
 /**
  * https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/
- *
+ * Tìm giá sau chiết khấu đặc biệt.
+ * Giải thích đề: giá của 1 item tại vị trí thứ i sẽ được hưởng chiết khấu nếu nó "lớn hơn hoặc bằng" giá
+ * của 1 item tại vị trí thứ j. Mà j > i.
  */
 function finalPrices(prices: number[]): number[] {
 	const ans: number[] = []
