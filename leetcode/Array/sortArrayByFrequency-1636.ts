@@ -10,19 +10,22 @@ function frequencySort(nums: number[]): number[] {
 		else hmNums[element] = 1
 	}
 	const sortNums = Object.entries(hmNums)
-		.sort((a, b) => a[1] - b[1])
 		.map((a) => [parseInt(a[0]), a[1]])
-	for (let k = 0; k < sortNums.length; k++) {
-		for (let h = k + 1; h < sortNums.length; h++) {
-			if (sortNums[k][1] === sortNums[h][1]) {
-				if (sortNums[k][0] < sortNums[h][0]) {
-					let tmp = sortNums[k]
-					sortNums[k] = sortNums[h]
-					sortNums[h] = tmp
-				}
-			}
-		}
-	}
+		.sort((a, b) => {
+			if (a[1] === b[1]) return b[0] - a[0]
+			return a[1] - b[1]
+		})
+	// for (let k = 0; k < sortNums.length; k++) {
+	//     for (let h = k + 1; h < sortNums.length; h++) {
+	//         if (sortNums[k][1] === sortNums[h][1]) {
+	//             if (sortNums[k][0] < sortNums[h][0]) {
+	//                 let tmp = sortNums[k]
+	//                 sortNums[k] = sortNums[h]
+	//                 sortNums[h] = tmp
+	//             }
+	//         }
+	//     }
+	// }
 	const ans: number[] = []
 	for (let i = 0; i < sortNums.length; i++) {
 		const element = sortNums[i]
