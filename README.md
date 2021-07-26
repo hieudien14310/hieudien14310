@@ -9,7 +9,7 @@ Hi, I'm <b>Tran Trung Hieu</b>, a passionate self-taught Full Stack Web Develope
 
 
 ### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="35px"> A little more about me: 
-- Lived            🎂️: <b>9061</b> days.
+- Lived            🎂️: <b>9062</b> days.
 - Place of birth   🏘️: [15°07′26″B 108°48′42″Đ](https://en.wikipedia.org/wiki/Qu%E1%BA%A3ng_Ng%C3%A3i)
 - Education        📖️: 👨‍🎓️.
 - Major            👨‍🏫️: Software engineer.
@@ -26,6 +26,6 @@ Hi, I'm <b>Tran Trung Hieu</b>, a passionate self-taught Full Stack Web Develope
 **Quote**
 <p align="left" style="color:tomato;">
 
-`Winning isn't everything.. It's the only thing.`
+`Luck is a dividend of sweat. The more you sweat, the luckier you get`
 </p>
-<p align="right"><b>Vincent van Gogh</b></p>
+<p align="right"><b>Ray Kroc</b></p>
