@@ -5,17 +5,12 @@
 function lemonadeChange(bills: number[]): boolean {
 	const stack5: number[] = []
 	const stack10: number[] = []
-	let correct: boolean = true
 	for (let i = 0; i < bills.length; i++) {
-		const bill = bills[i]
-		if (bill === 5) stack5.push(bill)
-		else if (bill === 10) {
+		if (bills[i] === 5) stack5.push(bills[i])
+		else if (bills[i] === 10) {
 			if (stack5.length > 0) stack5.pop(), stack10.push(10)
-			else {
-				correct = false
-				break
-			}
-		} else if (bill === 20) {
+			else return false
+		} else if (bills[i] === 20) {
 			if (stack10.length >= 1 && stack5.length >= 1) {
 				stack5.pop()
 				stack10.pop()
@@ -23,13 +18,9 @@ function lemonadeChange(bills: number[]): boolean {
 				stack5.pop()
 				stack5.pop()
 				stack5.pop()
-			} else {
-				correct = false
-				break
-			}
+			} else return false
 		}
 	}
-	if (!correct) return false
 	return true
 }
 console.log(
