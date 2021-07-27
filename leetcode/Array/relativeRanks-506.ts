@@ -1,6 +1,10 @@
 /**
  * https://leetcode.com/problems/relative-ranks/
- *
+ * Tìm thứ tự xếp hạng của các con số.
+ * Cách giải:
+ *  - Tạo ra 1 mảng được sắp xếp theo thứ tự giảm dần(hoặc tăng dần) dựa trên mảng ban đầu
+ *  - Sau đó đánh dấu key-value(ở đây là số trong mảng - xếp hạng) cho các thứ tự theo xếp hạng.
+ *  - Sau đó dùng thứ tự số của mảng ban đầu để cho ra mảng mới với xếp hạng phù hợp.
  */
 function findRelativeRanks(score: number[]): string[] {
 	const answer: string[] = []
