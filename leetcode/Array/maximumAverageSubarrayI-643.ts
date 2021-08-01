@@ -1,6 +1,7 @@
 /**
  * https://leetcode.com/problems/maximum-average-subarray-i/
- *
+ * Cách giải: Dùng cách tính lũy tiến để tính ra 1 mảng sum
+ * Sau đó dùng công thức để tìm ra số trung bình.
  */
 function findMaxAverage(nums: number[], k: number): number {
 	const sum: number[] = new Array(nums.length)
