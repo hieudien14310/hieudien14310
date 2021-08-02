@@ -1,6 +1,6 @@
 /**
  * https://leetcode.com/problems/longest-continuous-increasing-subsequence/
- *
+ * Tìm dãy số liên tiếp có độ dài lớn nhất.
  */
 function findLengthOfLCIS(nums: number[]): number {
 	let [longest, j]: number[] = [0, 0]
