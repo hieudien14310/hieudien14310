@@ -1,5 +1,6 @@
 /**
  * https://leetcode.com/problems/maximum-ascending-subarray-sum/
+ * Tìm tổng số lớn nhất của dãy số liên tiếp(có các số tăng dần).
  */
 function maxAscendingSum(nums: number[]): number {
 	let sum = 0,
