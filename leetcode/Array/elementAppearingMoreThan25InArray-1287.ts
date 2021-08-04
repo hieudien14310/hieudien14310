@@ -1,6 +1,6 @@
 /**
  * https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/
- *
+ * Tìm phần tử có số lần xuất hiện nhiều hơn 1/4 độ dài của mảng.
  */
 function findSpecialInteger(arr: number[]): number {
 	const quarter: number = arr.length / 4
