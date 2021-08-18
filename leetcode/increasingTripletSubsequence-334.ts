@@ -13,15 +13,18 @@
  */
 function increasingTriplet(nums: number[]): boolean {
 	let st = Infinity,
-		nd = Infinity
+		nd = Infinity,
+		rd = Infinity
+
 	for (let i = 0; i < nums.length; i++) {
 		if (nums[i] <= st) {
 			st = nums[i]
 		} else if (nums[i] > st && nums[i] <= nd) {
 			nd = nums[i]
 		} else {
-			return true
+			rd = nums[i]
 		}
+		if (st !== Infinity && nd !== Infinity && rd !== Infinity) return true
 	}
 	return false
 }
