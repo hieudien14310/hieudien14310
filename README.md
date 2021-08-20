@@ -9,7 +9,7 @@ Hi, I'm <b>Tran Trung Hieu</b>, a passionate self-taught Full Stack Web Develope
 
 
 ### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="35px"> A little more about me: 
-- Lived            🎂️: <b>9086</b> days.
+- Lived            🎂️: <b>9087</b> days.
 - Place of birth   🏘️: [15°07′26″B 108°48′42″Đ](https://en.wikipedia.org/wiki/Qu%E1%BA%A3ng_Ng%C3%A3i)
 - Education        📖️: 👨‍🎓️.
 - Major            👨‍🏫️: Software engineer.
@@ -19,13 +19,6 @@ Hi, I'm <b>Tran Trung Hieu</b>, a passionate self-taught Full Stack Web Develope
 ### My Week 🎊️
 
 <!--START_SECTION:waka-->
-```text
-Week: 12 August, 2021 - 18 August, 2021
-
-TypeScript   15 hrs 23 mins  ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⣀⣀⣀⣀⣀⣀⣀⣀⣀   62.30 % 
-JSX          5 hrs 54 mins   ⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   23.94 % 
-JavaScript   3 hrs 23 mins   ⣿⣿⣿⣦⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   13.71 % 
-```
 <!--END_SECTION:waka-->
 
 
@@ -33,6 +26,6 @@ JavaScript   3 hrs 23 mins   ⣿⣿⣿⣦⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 **Quote**
 <p align="left" style="color:tomato;">
 
-`When you recover or discover something that nourishes your soul and brings joy, care enough about yourself to make room for it in your life.`
+`Persistence is very important. You should not give up unless you are forced to give up.`
 </p>
-<p align="right"><b>Jean Shinoda Bolen</b></p>
+<p align="right"><b>Elon Musk</b></p>
