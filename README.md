@@ -19,6 +19,15 @@ Hi, I'm <b>Tran Trung Hieu</b>, a passionate self-taught Full Stack Web Develope
 ### My Week 🎊️
 
 <!--START_SECTION:waka-->
+```text
+Week: 13 August, 2021 - 19 August, 2021
+
+TypeScript   15 hrs 37 mins  ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣀⣀⣀⣀⣀⣀⣀   71.60 % 
+JavaScript   3 hrs 7 mins    ⣿⣿⣿⣦⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   14.31 % 
+JSX          2 hrs 44 mins   ⣿⣿⣿⣄⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   12.54 % 
+JSON         15 mins         ⣤⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   01.20 % 
+YAML         3 mins          ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   00.29 % 
+```
 <!--END_SECTION:waka-->
 
 
