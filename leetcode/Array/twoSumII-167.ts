@@ -10,7 +10,7 @@
  * Lý giải: Vì sao lại tăng/giảm con trỏ 1/2
  *  => Vì mảng đã được sắp xếp. Và khi cộng 2 con trỏ lại mà nó lớn hơn số target thì
  * tức là con số tổng sẽ đứng sau con số target (hay gọi là đứng bên phải và đứng bên trái nếu nhỏ hơn)
- *
+ * => Bài toán áp dụng binary search.
  */
 function twoSumII(numbers: number[], target: number): number[] {
 	let [start, end]: number[] = [0, numbers.length - 1]
