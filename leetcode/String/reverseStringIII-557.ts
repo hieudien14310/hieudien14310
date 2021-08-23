@@ -2,8 +2,8 @@
  * https://leetcode.com/problems/reverse-words-in-a-string-iii/
  *
  */
-function reverseWords(strs: string): string {
-	const ans: string[] = strs.split(' ')
+function reverseWords(s: string): string {
+	const ans: string[] = s.split(' ')
 	for (let i = 0; i < ans.length; i++) {
 		const element = ans[i].split('')
 		let left = 0,
@@ -17,7 +17,6 @@ function reverseWords(strs: string): string {
 		}
 		ans[i] = element.join('')
 	}
-
 	return ans.join(' ')
 }
 console.log(reverseWords('God Ding'))
