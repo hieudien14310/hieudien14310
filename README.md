@@ -9,7 +9,7 @@ Hi, I'm <b>Tran Trung Hieu</b>, a passionate self-taught Full Stack Web Develope
 
 
 ### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="35px"> A little more about me: 
-- Lived            🎂️: <b>9091</b> days.
+- Lived            🎂️: <b>9092</b> days.
 - Place of birth   🏘️: [15°07′26″B 108°48′42″Đ](https://en.wikipedia.org/wiki/Qu%E1%BA%A3ng_Ng%C3%A3i)
 - Education        📖️: 👨‍🎓️.
 - Major            👨‍🏫️: Software engineer.
@@ -19,15 +19,6 @@ Hi, I'm <b>Tran Trung Hieu</b>, a passionate self-taught Full Stack Web Develope
 ### My Week 🎊️
 
 <!--START_SECTION:waka-->
-```text
-Week: 17 August, 2021 - 23 August, 2021
-
-JavaScript   12 hrs 23 mins  ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   38.21 % 
-TypeScript   9 hrs 4 mins    ⣿⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   28.01 % 
-JSX          5 hrs 19 mins   ⣿⣿⣿⣿⣄⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   16.41 % 
-HTML         2 hrs 22 mins   ⣿⣷⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   07.35 % 
-EJS          1 hr 16 mins    ⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   03.92 % 
-```
 <!--END_SECTION:waka-->
 
 
@@ -35,6 +26,6 @@ EJS          1 hr 16 mins    ⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 **Quote**
 <p align="left" style="color:tomato;">
 
-`Somewhere between the bottom of the climb and the summit is the answer to the mystery why we climb.`
+`Your life does not get better by chance. It gets better by change.`
 </p>
-<p align="right"><b>Greg Child</b></p>
+<p align="right"><b>Jim Rohn</b></p>
