@@ -19,4 +19,4 @@ function lengthOfLIS(nums: number[]): number {
 	}
 	return max
 }
-console.log(lengthOfLIS([4, 10, 4, 3, 8, 9]))
+console.log(lengthOfLIS([1, 2, 3, 1, 2, 3, 2, 2]))
