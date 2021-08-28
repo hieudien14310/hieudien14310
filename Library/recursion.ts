@@ -85,3 +85,23 @@ function popArray(nums: number[], n: number) {
  */
 const d = popArray([5, 4, 3, 2, 1], 2)
 console.log('Pop: ', d)
+
+/**
+ * Tìm số bước để cho số nguyên dương n trở về bằng 1 theo giả thuyết collatz.
+ * @param num
+ * @returns
+ */
+function collatz(num: number) {
+	const recursion = (n: number, i: number): number => {
+		if (n === 1) return i
+		else if (n % 2 === 0) {
+			n = n / 2
+			return recursion(n, i + 1)
+		} else {
+			n = n * 3 + 1
+			return recursion(n, i + 1)
+		}
+	}
+	return recursion(num, 0)
+}
+console.log('Collatz Steps: ', collatz(14))
