@@ -9,7 +9,7 @@ Hi, I'm <b>Tran Trung Hieu</b>, a passionate self-taught Full Stack Web Develope
 
 
 ### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="35px"> A little more about me: 
-- Lived            🎂️: <b>9095</b> days.
+- Lived            🎂️: <b>9096</b> days.
 - Place of birth   🏘️: [15°07′26″B 108°48′42″Đ](https://en.wikipedia.org/wiki/Qu%E1%BA%A3ng_Ng%C3%A3i)
 - Education        📖️: 👨‍🎓️.
 - Major            👨‍🏫️: Software engineer.
@@ -20,13 +20,13 @@ Hi, I'm <b>Tran Trung Hieu</b>, a passionate self-taught Full Stack Web Develope
 
 <!--START_SECTION:waka-->
 ```text
-Week: 21 August, 2021 - 27 August, 2021
+Week: 22 August, 2021 - 28 August, 2021
 
-JavaScript   22 hrs 10 mins  ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   50.31 % 
-JSX          8 hrs 18 mins   ⣿⣿⣿⣿⣶⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   18.85 % 
-TypeScript   7 hrs 14 mins   ⣿⣿⣿⣿⣄⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   16.43 % 
-HTML         2 hrs 36 mins   ⣿⣦⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   05.92 % 
-EJS          1 hr 27 mins    ⣷⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   03.29 % 
+JavaScript   17 hrs 49 mins  ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   44.20 % 
+JSX          8 hrs 43 mins   ⣿⣿⣿⣿⣿⣤⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   21.62 % 
+TypeScript   8 hrs 34 mins   ⣿⣿⣿⣿⣿⣤⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   21.27 % 
+HTML         1 hr 48 mins    ⣿⣄⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   04.47 % 
+Bash         1 hr 5 mins     ⣶⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   02.70 % 
 ```
 <!--END_SECTION:waka-->
 
@@ -35,6 +35,6 @@ EJS          1 hr 27 mins    ⣷⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 **Quote**
 <p align="left" style="color:tomato;">
 
-`We don't have to do all of it alone. We were never meant to.`
+`A show of confidence raises the bar`
 </p>
-<p align="right"><b>Brene Brown</b></p>
+<p align="right"><b>Lorii Myers</b></p>
