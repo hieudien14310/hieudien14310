@@ -26,7 +26,7 @@ function factorialCalculation(num: number): any {
  * 5 * 4 * 3 * 2 * factorialCalculation(1)
  * 5 * 4 * 3 * 2 * 1
  */
-const a = factorialCalculation(5)
+const a = factorialCalculation(120)
 console.log('Giai thừa là', a)
 
 /**
