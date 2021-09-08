@@ -90,5 +90,4 @@ function executeAllSorting(): void {
 	bubbleSort(numbs)
 	mergeSort(numbs)
 }
-
 executeAllSorting()
