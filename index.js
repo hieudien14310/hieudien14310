@@ -12,25 +12,37 @@ const getQuote = async () => {
 		return {}
 	}
 }
-// ---
-// ### My Experience 🎊️
-// | Thời gian            | Company                       | Role          | Công nghệ         |
-// | :---:                |     :---:                     |         :---  |          ---:     |
-// |                      |                               |               |                   |
-// | 7/2019 - 10/2020     | Hitachi Vantara VietNam       | git diff      | Java, Angular     |
-// | 11/2020 - Present    | KINGFOOD                      | BackEnd + FrontEnd developer      | NodeJS, ReactJS, MongoDB, Docker, Microservice, Redis     |
-// **Languages and Tools: 🛠️**
-// <img alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=flat-square&logo=react&logoColor=white" />
-// <img alt="Docker" src="https://img.shields.io/badge/-Docker-46a2f1?style=flat-square&logo=docker&logoColor=white" />
-// <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
-// <img alt="git" src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white" />
-// <img alt="angular" src="https://img.shields.io/badge/-Angular-DD0031?style=flat-square&logo=angular&logoColor=white" />
-// <img alt="npm" src="https://img.shields.io/badge/-NPM-CB3837?style=flat-square&logo=npm&logoColor=white" />
-// <img alt="html5" src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
-// <img alt="Prettier" src="https://img.shields.io/badge/-Prettier-F7B93E?style=flat-square&logo=prettier&logoColor=white" />
-// <img alt="MongoDB" src="https://img.shields.io/badge/-MongoDB-13aa52?style=flat-square&logo=mongodb&logoColor=white" />
-// <img alt="Nodejs" src="https://img.shields.io/badge/-Nodejs-43853d?style=flat-square&logo=Node.js&logoColor=white" />
-// <img alt="gitlab" src="https://camo.githubusercontent.com/35b0a4cb52ffc87fc7c464f9f2527dec988b663d0ae86bf8d542ae5649bd2c9e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4769744c61622d4643413132313f7374796c653d666c61742d737175617265266c6f676f3d6769746c6162" />
+async function getInformationLeetCode() {
+	const data = await axios.default
+		.post(
+			'https://leetcode.com/graphql/',
+			'{"query":"\\n    query userSessionProgress($username: String!) {\\n  allQuestionsCount {\\n    difficulty\\n    count\\n  }\\n  matchedUser(username: $username) {\\n    submitStats {\\n      acSubmissionNum {\\n        difficulty\\n        count\\n        submissions\\n      }\\n      totalSubmissionNum {\\n        difficulty\\n        count\\n        submissions\\n      }\\n    }\\n  }\\n}\\n    ","variables":{"username":"tranhieu14310"},"operationName":"userSessionProgress"}',
+			{
+				headers: {
+					accept: '*/*',
+					'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
+					authorization: '',
+					'content-type': 'application/json',
+					'sec-ch-ua':
+						'"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"',
+					'sec-ch-ua-mobile': '?0',
+					'sec-ch-ua-platform': '"Linux"',
+					'sec-fetch-dest': 'empty',
+					'sec-fetch-mode': 'cors',
+					'sec-fetch-site': 'same-origin',
+					'x-csrftoken':
+						'B2AyVJu7nIpKlTaNN8L2mWdeIOTqBQhdtCbj9QVzz9dpOAJDY8fC4vhqQKfaKVAE',
+					cookie:
+						'gr_user_id=361d7728-7488-4a48-9d5c-a5ced9b347e5; 87b5a3c3f1a55520_gr_last_sent_cs1=tranhieu14310; __stripe_mid=0850e057-4dc2-4047-b28c-2a94cde7b6c81214ef; _ga_DKXQ03QCVK=GS1.1.1629174406.1.0.1629174407.59; _ga=GA1.2.2013233496.1626421776; __atuvc=41%7C31%2C35%7C32%2C34%7C33%2C34%7C34%2C18%7C35; csrftoken=B2AyVJu7nIpKlTaNN8L2mWdeIOTqBQhdtCbj9QVzz9dpOAJDY8fC4vhqQKfaKVAE; LEETCODE_SESSION=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfYXV0aF91c2VyX2lkIjoiMzMzNjYyNiIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImFsbGF1dGguYWNjb3VudC5hdXRoX2JhY2tlbmRzLkF1dGhlbnRpY2F0aW9uQmFja2VuZCIsIl9hdXRoX3VzZXJfaGFzaCI6ImFkY2IyZjEzNWQ4ZTkyMDhhYjhmNDQ5NDMzZTU4YTIyNDIwMDMwMjQiLCJpZCI6MzMzNjYyNiwiZW1haWwiOiJ0cmFuaGlldTE0MzEwQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoidHJhbmhpZXUxNDMxMCIsInVzZXJfc2x1ZyI6InRyYW5oaWV1MTQzMTAiLCJhdmF0YXIiOiJodHRwczovL2Fzc2V0cy5sZWV0Y29kZS5jb20vdXNlcnMvdHJhbmhpZXUxNDMxMC9hdmF0YXJfMTYyMzY3OTMyMi5wbmciLCJyZWZyZXNoZWRfYXQiOjE2MzcxNDA2NzUsImlwIjoiMjQwNTo0ODAzOmM4NWM6YjdkMDo0M2E5OmU5Yjk6OGVmMTo1ZTI4IiwiaWRlbnRpdHkiOiJiOTlmZWYzNTNiMmZhZGRlMWRiYjAxMzg3ZDhhODNiOSIsInNlc3Npb25faWQiOjE0NTQ1MTc3fQ.o6dq09LRA7R-vyh4irIhoGkep8hvPsKRs8QsFRW3eZs; _gid=GA1.2.771588167.1637304152; 87b5a3c3f1a55520_gr_session_id=f405fdce-a26b-47b0-b8f8-64cce85c4e46; 87b5a3c3f1a55520_gr_last_sent_sid_with_cs1=f405fdce-a26b-47b0-b8f8-64cce85c4e46; 87b5a3c3f1a55520_gr_session_id_f405fdce-a26b-47b0-b8f8-64cce85c4e46=true; NEW_PROBLEMLIST_PAGE=1; 87b5a3c3f1a55520_gr_cs1=tranhieu14310',
+					Referer: 'https://leetcode.com/problemset/all/',
+					'Referrer-Policy': 'strict-origin-when-cross-origin',
+				},
+			},
+		)
+		.then((res) => res.data)
+	return data
+}
+
 const generate = async () => {
 	const { quote, author } = await getQuote()
 	const birthday = [10, 3, 1996]
@@ -67,14 +79,19 @@ Hi, I'm <b>Tran Trung Hieu</b>, a passionate self-taught Full Stack Web Develope
 
 
 ---
-**Quote**
+**Author's quote - ${author}**
 <p align="left" style="color:tomato;">
 
 \`${quote}\`
 </p>
-<p align="right"><b>${author}</b></p>
+
+<p align="right"><i>Thank you for visting to my github profile. Hope someday, you'll come back here again <img src="https://media4.giphy.com/media/iGYfRROBeDccvEaREx/giphy.gif" width="35px"></i></p>
 `
 	fs.writeFileSync('README.md', content)
 }
 
-generate()
+async function main() {
+	// getInformationLeetCode()
+	generate()
+}
+main()
