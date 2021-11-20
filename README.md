@@ -1,12 +1,10 @@
 
-Hi, I'm <b>Tran Trung Hieu</b>, a passionate self-taught Full Stack Web Developer with 2 years of experience 🚀.
-<br>
-<br>
 
-Leetcode: 199 / 2077
-- <span style="color: green"><b>Easy</b></span>: 167 / 527
+
+Leetcode: 200 / 2077
+- <span style="color: green"><b>Easy</b></span>: 168 / 527
 - <span style="color: rgb(251, 140, 0)"><b>Medium</b></span>: 32 / 1108
-- <span style="color: red"> <b>Hard</b></span>: 0 / 442
+- <span style="color: red"><b>Hard</b></span>: 0 / 442
 
 ### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="35px"> A little more about me: 
 - Lived            🎂️: <b>9179</b> days.

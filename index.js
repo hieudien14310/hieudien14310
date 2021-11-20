@@ -63,10 +63,8 @@ Leetcode: ${acAll.count} / ${alAll.count}
 	const currently = dayNow.split('/')
 	const days = Math.round((new Date(currently[2], currently[0] - 1, currently[1]) - new Date(birthday[2], birthday[0] - 1, birthday[1])) / (1000 * 60 * 60 * 24))
 	if (!quote) return
+	// Hi, I'm <b>Tran Trung Hieu</b>, a passionate self-taught Full Stack Web Developer with 2 years of experience 🚀.
 	const content = `
-Hi, I'm <b>Tran Trung Hieu</b>, a passionate self-taught Full Stack Web Developer with 2 years of experience 🚀.
-<br>
-<br>
 
 ${leetcode ? informationLeetCode() : ''}
 
