@@ -1,11 +1,13 @@
 /**
  * https://leetcode.com/problems/smallest-index-with-equal-value/
+ * Đi tìm vị trí index nhỏ nhất mà tại đó giá trị tại vị trí index === index.
+ *
  * @param nums
  */
 function smallestEqual(nums: number[]): number {
-	let smallest: number = Infinity
 	for (let i = 0; i < nums.length; i++) {
-		if (i % 10 === nums[i] && smallest > i) {
+		if (i % 10 === nums[i]) {
+			// Return ngay khi vào đoạn if này 1 lần. Tức là i là thằng nhỏ nhất.
 			return i
 		}
 	}
