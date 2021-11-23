@@ -4,19 +4,19 @@
  * @param k
  */
 function kthDistinct(arr: string[], k: number): string {
-	const keep: { [key: string]: number } = {}
+	const hmKey: { [key: string]: number } = {}
 	for (let i = 0; i < arr.length; i++) {
 		const element = arr[i]
-		if (element in keep) {
-			keep[element]++
-		} else keep[element] = 1
+		if (element in hmKey) {
+			hmKey[element]++
+		} else hmKey[element] = 1
 	}
 	let countKth = 1
-	for (let j = 0; j < Object.keys(keep).length; j++) {
-		const key = Object.keys(keep)[j]
-		if (keep[key] === 1 && countKth === k) {
+	for (let j = 0; j < arr.length; j++) {
+		const key = arr[j]
+		if (hmKey[key] === 1 && countKth === k) {
 			return key
-		} else if (keep[key] === 1) countKth++
+		} else if (hmKey[key] === 1) countKth++
 	}
 	return ''
 }
