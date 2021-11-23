@@ -1,5 +1,7 @@
 /**
  * https://leetcode.com/problems/kth-distinct-string-in-an-array/
+ * Tìm chuỗi "string" khác biệt nằm trong mảng và trả về chuỗi tại ví trị k
+ * trong mảng gồm các chuỗi "string" khác biệt.
  * @param arr
  * @param k
  */
