@@ -4,9 +4,8 @@ const myself = {
     lived: 9184 'days',
     whoami: 'Just a human who one of 7 million people on the earth but' I am only,
     love: [Javascript, Typescript, C++],
-    leetcode: {
-        description: 'In free time, I often go to leetcode website to'
-        'solve the problems by progarmming',
+    'leetcode.com': {
+        description: 'In free time, I often solve the problems by progarmming',
         result: {
             all: '204 / 2082',
             easy: '172 / 529',
