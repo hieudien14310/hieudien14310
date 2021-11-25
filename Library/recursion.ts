@@ -105,3 +105,29 @@ function collatz(num: number) {
 	return recursion(num, 0)
 }
 console.log('Collatz Steps: ', collatz(14))
+
+function sliceArrayByNumber(): Array<Array<number>> {
+	const data: Array<number> = []
+	for (let i = 0; i < 600; i++) {
+		data.push(i + 1)
+	}
+	const output: Array<Array<number>> = []
+	/**
+	 * Đệ quy dùng để chia nhỏ data theo số lượng cần chia nhỏ
+	 * Lưu ý: Hàm này nó thực hiện trên tham chiếu của mảng data. Vì vậy sau khi mảng data cũng bị thay đổi giá trị.
+	 * @param output Kết quả trả về
+	 * @param data Data đầu vào
+	 * @param start vị trí bắt đầu
+	 * @param end vị trí kết thúc
+	 */
+	const sliceArray = (output: Array<Array<number>>, data: Array<number>, start: number = 0, end: number = 50): void => {
+		if (data.length !== 0) {
+			const eachItem: Array<number> = data.splice(start, end)
+			output.push(eachItem)
+			sliceArray(output, data, start, end)
+		}
+	}
+	sliceArray(output, data, 0, 100)
+	return output
+}
+console.log(`Slice Array: `, sliceArrayByNumber())
