@@ -1,18 +1,20 @@
-
-
-
-Leetcode: 204 / 2082
-- <span style="color: green"><b>Easy</b></span>: 172 / 529
-- <span style="color: rgb(251, 140, 0)"><b>Medium</b></span>: 32 / 1110
-- <span style="color: red"><b>Hard</b></span>: 0 / 443
-
-### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="35px"> A little more about me: 
-- Lived            🎂️: <b>9184</b> days.
-- Place of birth   🏘️: [15°07′26″B 108°48′42″Đ](https://en.wikipedia.org/wiki/Qu%E1%BA%A3ng_Ng%C3%A3i)
-- Education        📖️: 👨‍🎓️.
-- Major            👨‍🏫️: Software engineer.
-- My hobby         😍️: 🎮️, 🏊‍♀️️, ⚽️, 🧗‍♂️️ and 🚋️.
-- ...........................................
+```javascript
+  const myself = {
+        name: 'Trần Trung Hiếu',
+        lived: 9184 'days',
+        whoami: 'Just a human who one of 7 million people on the earth but' I am only,
+        love: [Javascript, Typescript, C++],
+        leetcode: {
+            description: 'In free time, I often go to leetcode website to solve the problems by progarmming'
+            result: {
+                all: '204 / 2082',
+                easy: '172 / 529',
+                medium: '32 / 1110',
+                hard: '0 / 443',
+            }
+        }
+    }
+```
 ---
 ### My Week 🎊️
 
