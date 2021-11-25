@@ -1,19 +1,19 @@
 ```javascript
-  const myself = {
-        name: 'Trần Trung Hiếu',
-        lived: 9184 'days',
-        whoami: 'Just a human who one of 7 million people on the earth but' I am only,
-        love: [Javascript, Typescript, C++],
-        leetcode: {
-            description: 'In free time, I often go to leetcode website to solve the problems by progarmming'
-            result: {
-                all: '204 / 2082',
-                easy: '172 / 529',
-                medium: '32 / 1110',
-                hard: '0 / 443',
-            }
+const myself = {
+    name: 'Trần Trung Hiếu',
+    lived: 9184 'days',
+    whoami: 'Just a human who one of 7 million people on the earth but' I am only,
+    love: [Javascript, Typescript, C++],
+    leetcode: {
+        description: 'In free time, I often go to leetcode website to solve the problems by progarmming'
+        result: {
+            all: '204 / 2082',
+            easy: '172 / 529',
+            medium: '32 / 1110',
+            hard: '0 / 443',
         }
     }
+}
 ```
 ---
 ### My Week 🎊️
