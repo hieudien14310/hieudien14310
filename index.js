@@ -52,21 +52,21 @@ const generateReadme = async (leetcode) => {
 	const informationLeetCode = (days) => {
 		return `
 \`\`\`javascript
-	const myself = {
-		name: 'Trần Trung Hiếu',
-		lived: ${days} 'days',
-		whoami: 'Just a human who one of 7 million people on the earth but' I am only,
-		technologies: [Javascript, Typescript, C++, MongoDB, NodeJS, ReactJS, Angular+],
-		'leetcode.com': {
-			description: 'In free time, I often solve the problems by progarmming',
-			result: {
-				all: ${acAll.count} / ${alAll.count},
-				easy: ${acEasy.count} / ${alEasy.count},
-				medium: ${acMedium.count} / ${alMedium.count},
-				hard: ${acHard.count} / ${alHard.count},
-			}
+const myself = {
+	name: 'Trần Trung Hiếu',
+	lived: ${days} 'days',
+	whoami: 'Just a human who one of 7 million people on the earth but' I am only,
+	technologies: [Javascript, Typescript, C++, MongoDB, NodeJS, ReactJS, Angular+],
+	'leetcode.com': {
+		description: 'In free time, I often solve the problems by progarmming',
+		result: {
+			all: ${acAll.count} / ${alAll.count},
+			easy: ${acEasy.count} / ${alEasy.count},
+			medium: ${acMedium.count} / ${alMedium.count},
+			hard: ${acHard.count} / ${alHard.count},
 		}
 	}
+}
 \`\`\`
 		`
 	}
