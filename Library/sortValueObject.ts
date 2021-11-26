@@ -3,10 +3,7 @@
  * Điều kiện: key của object phải là string. Nếu là number thì ko thể sort được.
  * Cách làm: Chuyển object về thành 1 array 2 chiều. Rồi dựa vào phần tử có index là 1 trong mỗi phần tử của array con để sắp xếp.
  */
-function sortValueOfObject(
-	list: { [key: string]: number } = {},
-	ascending: boolean = false,
-): any {
+function sortValueOfObject(list: { [key: string]: number } = {}, ascending: boolean = false): any {
 	const toArray: any[] = Object.entries(list)
 	toArray.sort((a, b) => {
 		if (ascending) {
@@ -18,10 +15,10 @@ function sortValueOfObject(
 	return Object.fromEntries(toArray)
 }
 let list = {
-	conac: 100,
-	memay: 75,
-	dume: 116,
-	cailon: 15,
+	counter: 100,
+	height: 75,
+	weight: 116,
+	small: 15,
 }
 list = sortValueOfObject(list, true)
 console.log(list)
