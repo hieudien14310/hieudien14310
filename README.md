@@ -2,11 +2,11 @@
 
 ```javascript
 const myself = {
-name: 'Trần Trung Hiếu',
-lived: 9185 'days',
-whoami: 'Just a human who one of 7 million people on the earth but' I am only,
-technologies: [Javascript, Typescript, C++, MongoDB, NodeJS, ReactJS, Angular+],
-'leetcode.com': {
+  name: 'Trần Trung Hiếu',
+  lived: 9185 'days',
+  whoami: 'Just a human who one of 7 million people on the earth but' I am only,
+  technologies: [Javascript, Typescript, C++, MongoDB, NodeJS, ReactJS, Angular+],
+  'leetcode.com': {
 	description: 'In free time, I often solve the problems by progarmming',
 	result: {
 		all: 204 / 2084,
@@ -14,7 +14,7 @@ technologies: [Javascript, Typescript, C++, MongoDB, NodeJS, ReactJS, Angular+],
 		medium: 32 / 1112,
 		hard: 0 / 443,
 	}
-}
+  }
 }
 ```
 		
