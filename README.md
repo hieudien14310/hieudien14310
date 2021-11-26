@@ -1,31 +1,28 @@
 
 
+```javascript
+	const myself = {
+		name: 'Trần Trung Hiếu',
+		lived: 9185 'days',
+		whoami: 'Just a human who one of 7 million people on the earth but' I am only,
+		technologies: [Javascript, Typescript, C++, MongoDB, NodeJS, ReactJS, Angular+],
+		'leetcode.com': {
+			description: 'In free time, I often solve the problems by progarmming',
+			result: {
+				all: 204 / 2084,
+				easy: 172 / 529,
+				medium: 32 / 1112,
+				hard: 0 / 443,
+			}
+		}
+	}
+```
+		
 
-Leetcode: 204 / 2084
-- <span style="color: green"><b>Easy</b></span>: 172 / 529
-- <span style="color: rgb(251, 140, 0)"><b>Medium</b></span>: 32 / 1112
-- <span style="color: red"><b>Hard</b></span>: 0 / 443
-
-### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="35px"> A little more about me: 
-- Lived            🎂️: <b>9185</b> days.
-- Place of birth   🏘️: [15°07′26″B 108°48′42″Đ](https://en.wikipedia.org/wiki/Qu%E1%BA%A3ng_Ng%C3%A3i)
-- Education        📖️: 👨‍🎓️.
-- Major            👨‍🏫️: Software engineer.
-- My hobby         😍️: 🎮️, 🏊‍♀️️, ⚽️, 🧗‍♂️️ and 🚋️.
-- ...........................................
 ---
 ### My Week 🎊️
 
 <!--START_SECTION:waka-->
-```text
-Week: 19 November, 2021 - 25 November, 2021
-
-TypeScript   9 hrs 22 mins   ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   39.97 % 
-JavaScript   8 hrs 41 mins   ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣤⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   37.03 % 
-JSX          3 hrs 2 mins    ⣿⣿⣿⣄⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   12.98 % 
-Markdown     1 hr 23 mins    ⣿⣦⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   05.93 % 
-JSON         49 mins         ⣷⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   03.51 % 
-```
 <!--END_SECTION:waka-->
 
 

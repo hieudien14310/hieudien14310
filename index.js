@@ -49,12 +49,26 @@ const generateReadme = async (leetcode) => {
 	const [acAll, acEasy, acMedium, acHard] = leetcode.matchedUser.submitStats.acSubmissionNum
 	const [alAll, alEasy, alMedium, alHard] = leetcode.allQuestionsCount
 
-	const informationLeetCode = () => {
+	const informationLeetCode = (days) => {
 		return `
-Leetcode: ${acAll.count} / ${alAll.count}
-- <span style="color: green"><b>Easy</b></span>: ${acEasy.count} / ${alEasy.count}
-- <span style="color: rgb(251, 140, 0)"><b>Medium</b></span>: ${acMedium.count} / ${alMedium.count}
-- <span style="color: red"><b>Hard</b></span>: ${acHard.count} / ${alHard.count}`
+\`\`\`javascript
+	const myself = {
+		name: 'Trần Trung Hiếu',
+		lived: ${days} 'days',
+		whoami: 'Just a human who one of 7 million people on the earth but' I am only,
+		technologies: [Javascript, Typescript, C++, MongoDB, NodeJS, ReactJS, Angular+],
+		'leetcode.com': {
+			description: 'In free time, I often solve the problems by progarmming',
+			result: {
+				all: ${acAll.count} / ${alAll.count},
+				easy: ${acEasy.count} / ${alEasy.count},
+				medium: ${acMedium.count} / ${alMedium.count},
+				hard: ${acHard.count} / ${alHard.count},
+			}
+		}
+	}
+\`\`\`
+		`
 	}
 
 	const { quote, author } = await getQuote()
@@ -65,16 +79,8 @@ Leetcode: ${acAll.count} / ${alAll.count}
 	if (!quote) return
 	// Hi, I'm <b>Tran Trung Hieu</b>, a passionate self-taught Full Stack Web Developer with 2 years of experience 🚀.
 	const content = `
+${leetcode ? informationLeetCode(days) : ''}
 
-${leetcode ? informationLeetCode() : ''}
-
-### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="35px"> A little more about me: 
-- Lived            🎂️: <b>${days}</b> days.
-- Place of birth   🏘️: [15°07′26″B 108°48′42″Đ](https://en.wikipedia.org/wiki/Qu%E1%BA%A3ng_Ng%C3%A3i)
-- Education        📖️: 👨‍🎓️.
-- Major            👨‍🏫️: Software engineer.
-- My hobby         😍️: 🎮️, 🏊‍♀️️, ⚽️, 🧗‍♂️️ and 🚋️.
-- ...........................................
 ---
 ### My Week 🎊️
 
