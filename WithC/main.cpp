@@ -59,13 +59,40 @@ public:
         int RIGHT = nums.size();
         return binarySearch(nums, LEFT, RIGHT);
     }
+    bool validMountainArray()
+    {
+        std::vector<int> arr = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+        if (arr.size() < 3)
+            return false;
+        int index = 1;
+        while (index < arr.size())
+        {
+            if (arr[index - 1] < arr[index])
+                index++;
+            else
+                break;
+        }
+        if (index == arr.size() || index == 1)
+            return false;
+        while (index < arr.size())
+        {
+            if (arr[index - 1] > arr[index])
+                index++;
+            else
+                break;
+        }
+        if (index == arr.size())
+            return true;
+        return false;
+    }
 };
 
 int main()
 {
     Leetcode lt;
-    std::cout << "Answer 153: " << lt.findMin() << std::endl;
-    std::cout << "Answer 162: " << lt.findPeakElement() << std::endl;
-    std::cout << "Answer 1160: " << lt.countCharacters() << std::endl;
+    // std::cout << "Answer 153: " << lt.findMin() << std::endl;
+    // std::cout << "Answer 162: " << lt.findPeakElement() << std::endl;
+    std::cout << "Answer 941: " << lt.validMountainArray() << std::endl;
+    // std::cout << "Answer 1160: " << lt.countCharacters() << std::endl;
     return 0;
 }
