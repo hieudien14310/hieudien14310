@@ -3,15 +3,15 @@
 ```javascript
 const myself = {
 	name: 'Trần Trung Hiếu',
-	lived: 9205 'days',
+	lived: 9206 'days',
 	whoami: 'Just a human who one of 7 million people on the earth but' I am only,
 	technologies: [Javascript, Typescript, C++, MongoDB, NodeJS, ReactJS, Angular+],
 	'leetcode.com': {
 		description: 'In free time, I often solve the problems by progarmming',
 		result: {
-			all: 209 / 2103,
-			easy: 175 / 534,
-			medium: 34 / 1121,
+			all: 210 / 2107,
+			easy: 176 / 534,
+			medium: 34 / 1125,
 			hard: 0 / 448,
 		}
 	}
@@ -23,23 +23,14 @@ const myself = {
 ### My Week 🎊️
 
 <!--START_SECTION:waka-->
-```text
-Week: 09 December, 2021 - 15 December, 2021
-
-JavaScript         9 hrs 23 mins   ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   51.05 % 
-JSX                7 hrs 9 mins    ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   38.92 % 
-C++                45 mins         ⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   04.09 % 
-JSON               30 mins         ⣶⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   02.79 % 
-reStructuredText   14 mins         ⣤⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   01.28 % 
-```
 <!--END_SECTION:waka-->
 
 
 ---
-**Author's quote - Mohamad Ali**
+**Author's quote - Lorii Myers**
 <p align="left" style="color:tomato;">
 
-`He who is not courageous enough to take risks will accomplish nothing in life.`
+`Extend beyond your preconceived limits!`
 </p>
 
 <p align="right"><i>Thank you for visting to my github profile. Hope someday, you'll come back here again <img src="https://media4.giphy.com/media/iGYfRROBeDccvEaREx/giphy.gif" width="35px"></i></p>
