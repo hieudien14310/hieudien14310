@@ -28,9 +28,33 @@ class BinarySearch {
 		}
 		return []
 	}
+	/**
+	 * Number: 287
+	 * findDuplicate: https://leetcode.com/problems/find-the-duplicate-number/
+	 */
+	public findDuplicate(nums: number[]): number {
+		let low = 1,
+			high = nums.length - 1
+		let duplicate = -1
+		while (low <= high) {
+			const cur = Math.floor((low + high) / 2)
+			let count = 0
+			for (const num of nums) {
+				if (num <= cur) count++
+			}
+			if (count > cur) {
+				duplicate = cur
+				high = cur - 1
+			} else {
+				low = cur + 1
+			}
+		}
+		return duplicate
+	}
 }
 function main() {
 	const groupBS: BinarySearch = new BinarySearch()
 	console.log('Answer 2089: ', groupBS.targetIndices([1, 2, 5, 2, 3], 2))
+	console.log('ANswer 287: ', groupBS.findDuplicate([1, 3, 4, 2, 4]))
 }
 main()
