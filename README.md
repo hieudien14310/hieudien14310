@@ -3,7 +3,7 @@
 ```javascript
 const myself = {
 	name: 'Trần Trung Hiếu',
-	lived: 9213 'days',
+	lived: 9214 'days',
 	whoami: 'Just a human who one of 7 million people on the earth but' I am only,
 	technologies: [Javascript, Typescript, C++, MongoDB, NodeJS, ReactJS, Angular+],
 	'leetcode.com': {
@@ -23,23 +23,14 @@ const myself = {
 ### My Week 🎊️
 
 <!--START_SECTION:waka-->
-```text
-Week: 17 December, 2021 - 23 December, 2021
-
-JavaScript   11 hrs 16 mins  ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣄⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   52.79 % 
-JSX          4 hrs 58 mins   ⣿⣿⣿⣿⣿⣷⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   23.26 % 
-TypeScript   3 hrs 58 mins   ⣿⣿⣿⣿⣶⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   18.61 % 
-JSON         28 mins         ⣦⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   02.19 % 
-Markdown     27 mins         ⣦⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   02.18 % 
-```
 <!--END_SECTION:waka-->
 
 
 ---
-**Author's quote - Brene Brown**
+**Author's quote - John Muir**
 <p align="left" style="color:tomato;">
 
-`Vulnerability is not winning or losing; it's having the courage to show up and be seen when we have no control over the outcome.`
+`Climb the mountains and get their good tidings. Nature's peace will flow into you as sunshine flows into trees. The winds will blow their own freshness into you, and the storms their energy, while cares will drop away from you like the leaves of Autumn.`
 </p>
 
 <p align="right"><i>Thank you for visting to my github profile. Hope someday, you'll come back here again <img src="https://media4.giphy.com/media/iGYfRROBeDccvEaREx/giphy.gif" width="35px"></i></p>
