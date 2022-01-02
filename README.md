@@ -3,7 +3,7 @@
 ```javascript
 const myself = {
 	name: 'Trần Trung Hiếu',
-	lived: 9221 'days',
+	lived: 9222 'days',
 	whoami: 'Just a human who one of 7 million people on the earth but' I am only,
 	technologies: [Javascript, Typescript, C++, MongoDB, NodeJS, ReactJS, Angular+],
 	'leetcode.com': {
@@ -23,23 +23,14 @@ const myself = {
 ### My Week 🎊️
 
 <!--START_SECTION:waka-->
-```text
-Week: 25 December, 2021 - 31 December, 2021
-
-JavaScript   10 hrs 47 mins  ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   56.17 % 
-JSX          6 hrs 41 mins   ⣿⣿⣿⣿⣿⣿⣿⣿⣶⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   34.77 % 
-Go           32 mins         ⣶⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   02.80 % 
-Markdown     23 mins         ⣦⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   02.01 % 
-LESS         21 mins         ⣦⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   01.88 % 
-```
 <!--END_SECTION:waka-->
 
 
 ---
-**Author's quote - Yogi Bhajan**
+**Author's quote - Charles F. Kettering**
 <p align="left" style="color:tomato;">
 
-`You are very powerful, provided you know how powerful you are.`
+`Keep on going and the chances are you will stumble on something, perhaps when you are least expecting it. I have never heard of anyone stumbling on something sitting down.`
 </p>
 
 <p align="right"><i>Thank you for visting to my github profile. Hope someday, you'll come back here again <img src="https://media4.giphy.com/media/iGYfRROBeDccvEaREx/giphy.gif" width="35px"></i></p>
