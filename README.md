@@ -3,16 +3,16 @@
 ```javascript
 const myself = {
 	name: 'Trần Trung Hiếu',
-	lived: 9242 'days',
+	lived: 9243 'days',
 	whoami: 'Just a human who one of 7 million people on the earth but' I am only,
 	technologies: [Javascript, Typescript, C++, MongoDB, NodeJS, ReactJS, Angular+],
 	'leetcode.com': {
 		description: 'In free time, I often solve the problems by progarmming',
 		result: {
-			all: 213 / 2143,
-			easy: 178 / 541,
-			medium: 35 / 1144,
-			hard: 0 / 458,
+			all: 213 / 2147,
+			easy: 178 / 542,
+			medium: 35 / 1146,
+			hard: 0 / 459,
 		}
 	}
 }
@@ -23,23 +23,14 @@ const myself = {
 ### My Week 🎊️
 
 <!--START_SECTION:waka-->
-```text
-Week: 15 January, 2022 - 21 January, 2022
-
-JavaScript   10 hrs 37 mins  ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣀⣀   92.31 % 
-HTML         28 mins         ⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   04.10 % 
-Sass         17 mins         ⣶⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   02.55 % 
-Markdown     3 mins          ⣄⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   00.55 % 
-JSON         2 mins          ⣄⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   00.34 % 
-```
 <!--END_SECTION:waka-->
 
 
 ---
-**Author's quote - null**
+**Author's quote - Bill Murray**
 <p align="left" style="color:tomato;">
 
-`A loser doesn't know what he'll do if he loses, but talks about what he'll do if he wins, and a winner doesn't talk about what he'll do if he wins, but knows what he'll do if he loses.`
+`The last time doesn't exist. It's only this time. And everything is going to be different this time. There's only now.`
 </p>
 
 <p align="right"><i>Thank you for visting to my github profile. Hope someday, you'll come back here again <img src="https://media4.giphy.com/media/iGYfRROBeDccvEaREx/giphy.gif" width="35px"></i></p>
