@@ -3,16 +3,16 @@
 ```javascript
 const myself = {
 	name: 'Trần Trung Hiếu',
-	lived: 9264 'days',
+	lived: 9265 'days',
 	whoami: 'Just a human who one of 7 million people on the earth but' I am only,
 	technologies: [Javascript, Typescript, C++, MongoDB, NodeJS, ReactJS, Angular+],
 	'leetcode.com': {
 		description: 'In free time, I often solve the problems by progarmming',
 		result: {
-			all: 213 / 2168,
-			easy: 177 / 545,
-			medium: 36 / 1157,
-			hard: 0 / 466,
+			all: 213 / 2172,
+			easy: 177 / 546,
+			medium: 36 / 1159,
+			hard: 0 / 467,
 		}
 	}
 }
@@ -23,17 +23,14 @@ const myself = {
 ### My Week 🎊️
 
 <!--START_SECTION:waka-->
-```text
-No Activity tracked this Week
-```
 <!--END_SECTION:waka-->
 
 
 ---
-**Author's quote - Bill Murray**
+**Author's quote - Dale Patridge**
 <p align="left" style="color:tomato;">
 
-`The last time doesn't exist. It's only this time. And everything is going to be different this time. There's only now.`
+`We lose ourselves in the things we love. We find ourselves there, too.`
 </p>
 
 <p align="right"><i>Thank you for visting to my github profile. Hope someday, you'll come back here again <img src="https://media4.giphy.com/media/iGYfRROBeDccvEaREx/giphy.gif" width="35px"></i></p>
