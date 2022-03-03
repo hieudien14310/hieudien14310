@@ -3,15 +3,15 @@
 ```javascript
 const myself = {
 	name: 'Trần Trung Hiếu',
-	lived: 9281 'days',
+	lived: 9282 'days',
 	whoami: 'Just a human who one of 7 million people on the earth but' I am only,
 	technologies: [Javascript, Typescript, C++, MongoDB, NodeJS, ReactJS, Angular+],
 	'leetcode.com': {
 		description: 'In free time, I often solve the problems by progarmming',
 		result: {
-			all: 213 / 2188,
+			all: 213 / 2189,
 			easy: 177 / 549,
-			medium: 36 / 1168,
+			medium: 36 / 1169,
 			hard: 0 / 471,
 		}
 	}
@@ -27,10 +27,10 @@ const myself = {
 
 
 ---
-**Author's quote - Lorii Myers**
+**Author's quote - Winston Churchill**
 <p align="left" style="color:tomato;">
 
-`Don't be tempted to break momentum-work through it.`
+`You make a living by what you earn; you make a life by what you give.`
 </p>
 
 <p align="right"><i>Thank you for visting to my github profile. Hope someday, you'll come back here again <img src="https://media4.giphy.com/media/iGYfRROBeDccvEaREx/giphy.gif" width="35px"></i></p>
