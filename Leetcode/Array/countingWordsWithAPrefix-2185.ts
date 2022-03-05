@@ -6,8 +6,8 @@
 function prefixCount(words: string[], pref: string): number {
 	let count = 0
 	for (const word of words) {
-		const getTheFirstTwoCharacters = word.slice(0, pref.length)
-		if (getTheFirstTwoCharacters === pref) count++
+		const getTheFirstTwoCharacters = word.startsWith(pref)
+		if (getTheFirstTwoCharacters) count++
 	}
 	return count
 }
