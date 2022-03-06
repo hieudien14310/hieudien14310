@@ -52,9 +52,28 @@ class BinarySearch {
 		return duplicate
 	}
 }
+class Question {
+	static sumMonthEachItem(): number[] {
+		const listMonth: any = [
+			{ Jan: 0, Mar: 1, Apr: 5, May: 2 },
+			{ Jan: 2, Mar: 3, Apr: 6, May: 3 },
+			{ Jan: 3, Mar: 4, Apr: 7, May: 4 },
+		]
+		const hmKeys: { [key: string]: number } = {}
+		for (const item of listMonth) {
+			const itemKeys: string[] = Object.keys(item)
+			itemKeys.forEach((key) => {
+				if (key in hmKeys) hmKeys[key] += item[key]
+				else hmKeys[key] = item[key]
+			})
+		}
+		return Object.values(hmKeys)
+	}
+}
 function main() {
-	const groupBS: BinarySearch = new BinarySearch()
-	console.log('Answer 2089: ', groupBS.targetIndices([1, 2, 5, 2, 3], 2))
-	console.log('ANswer 287: ', groupBS.findDuplicate([1, 3, 4, 2, 4]))
+	// const groupBS: BinarySearch = new BinarySearch()
+	// console.log('Answer 2089: ', groupBS.targetIndices([1, 2, 5, 2, 3], 2))
+	// console.log('ANswer 287: ', groupBS.findDuplicate([1, 3, 4, 2, 4]))
+	console.log(Question.sumMonthEachItem())
 }
 main()
