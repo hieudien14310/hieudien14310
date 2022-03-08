@@ -3,14 +3,14 @@
 ```javascript
 const myself = {
 	name: 'Trần Trung Hiếu',
-	lived: 9286 'days',
+	lived: 9287 'days',
 	whoami: 'Just a human who one of 7 million people on the earth but' I am only,
 	technologies: [Javascript, Typescript, C++, MongoDB, NodeJS, ReactJS, Angular+],
 	'leetcode.com': {
 		description: 'In free time, I often solve the problems by progarmming',
 		result: {
-			all: 217 / 2197,
-			easy: 181 / 551,
+			all: 219 / 2197,
+			easy: 183 / 551,
 			medium: 36 / 1173,
 			hard: 0 / 473,
 		}
@@ -23,19 +23,14 @@ const myself = {
 ### My Week 🎊️
 
 <!--START_SECTION:waka-->
-
-```text
-No activity tracked
-```
-
 <!--END_SECTION:waka-->
 
 
 ---
-**Author's quote - Anatoli Boukreev**
+**Author's quote - Voltaire**
 <p align="left" style="color:tomato;">
 
-`I wanted to achieve something essential in life, something that is not measured by money or position in society. The mountains are not stadiums where I satisfy my ambitions to achieve. They are my cathedrals, the houses of my religion. In the mountains I attempt to understand my life. They are the way I practice my religion. In the mountains I celebrate creation, on each journey I am reborn.`
+`Each player must accept the cards life deals him or her: but once they are in hand, he or she alone must decide how to play the cards in order to win the game.`
 </p>
 
 <p align="right"><i>Thank you for visting to my github profile. Hope someday, you'll come back here again <img src="https://media4.giphy.com/media/iGYfRROBeDccvEaREx/giphy.gif" width="35px"></i></p>
