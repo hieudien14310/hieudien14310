@@ -74,6 +74,7 @@ function main() {
 	// const groupBS: BinarySearch = new BinarySearch()
 	// console.log('Answer 2089: ', groupBS.targetIndices([1, 2, 5, 2, 3], 2))
 	// console.log('ANswer 287: ', groupBS.findDuplicate([1, 3, 4, 2, 4]))
+	
 	console.log(Question.sumMonthEachItem())
 }
 main()
