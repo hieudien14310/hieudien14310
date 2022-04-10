@@ -1,24 +1,24 @@
-# Sự khác biệt giữa http và https:
+# Sự khác biệt giữa http và https: :high_brightness:
 
 - https chính là http nhưng là 1 phiên bản nâng cấp lên, giúp cho việc bảo mật hơn khi gửi data. Khác nhau chữ s là **secure** tức là bảo mật.
 - http gửi dữ liệu ở dạng plain text (văn bảng không được mã hóa hay gọi là văn bảng thô).
 - https thì mã hóa dữ liệu rồi gửi đi
 
-# Sự khác biệt giữa local stroge và session stroge:
+# Sự khác biệt giữa local stroge và session stroge: :eight_pointed_black_star:
 
 - LocalStroge lưu trữ giữ liệu vĩnh viễn trên trình duyệt. Ngoại trừ, khi người dùng xóa cache hoặc cài lại trình duyệt thì mới bị mất đi
   > Áp dụng cho việc lưu các thông tin không dính tới bảo mật như là themes, fonts, dashboard, layout, ..v..
 - SessionStroge thì giống với LocalStroge nhưng khác là data sẽ bị mất ngay khi tắt 1 cái tab hoặc tắt brower.
   > Áp dụng cho những thứ mang tính tạm thời như chức năng: ghi nhớ sản phẩm trong giỏ hàng, ...v...
 
-# Callback hell là gì?
+# Callback hell là gì? :loop:
 
 - Trong JS cho phép truyền 1 function làm tham số của 1 function khác và thực thi function được truyền vào thì gọi là callback
 - Callback hell là tình trạng gọi callback quá nhiều lần, làm cho code khó đọc và khó debug.
   > Đây là lỗi thuộc về coding convention.
 - Cách sửa: Chỉ đơn giản là viết lại sao cho dễ đọc hơn. Theo es6 thì có thể dùng await/async. Nói chung là tổ chức lại code cho gọn gàng, dễ hiểu là được.
 
-# Phương thức GET và POST
+# Phương thức GET và POST ? :telephone_receiver:
 
 - Dữ liệu của phương thức này gửi đi thì hiện trên thanh địa chỉ (URL) của trình duyệt.
   - HTTP GET có thể được cache bởi trình duyệt.
@@ -38,13 +38,13 @@
 
 > Vì có GET có khả năng cached nên sẽ truy xuất và xử lý nhanh hơn để lấy dữ liệu.
 
-# CORS là gì ?
+# CORS là gì ? :closed_umbrella:
 
 - CORS(Cross-origin resource sharing) là chính sách của trình duyệt dùng để ngăn chặn việc chia sẻ/truy vấn/truy cập vào resource của domain này đối với domain khác.
   - Ví dụ: Bạn tạo ra 1 api và bất kì trang web nào cũng sử dụng. Muốn ngăn chặn việc đó bạn chỉ việc không cho phép CORS thì lúc này nó sẽ giảm không cho các domain, máy chủ khác sử dụng api của bạn.
 - Fix lỗi: thông qua các trường HTTP header, khai báo Access-Control-Allow-Origin
 
-# ES6 là gì?
+# ES6 là gì? :flight_departure:
 
 - Đơn giản mà nói thì nó là quy tắc viết code cho lập trình viên JavaScript.
 
@@ -63,7 +63,7 @@
   - Promises: `Promise`
   - Array method: map(), filter(), find(), from(), reduce(), ..v...
 
-# Cách để truy vấn dữ liệu nhanh (nhất có thể) khi có nhiều dữ liệu (ví dụ 5tr record trong 1 table):
+# Cách nào để truy vấn dữ liệu nhanh (nhất có thể) khi có nhiều dữ liệu (ví dụ 5tr record trong 1 table)? :ship:
 
 - Đánh index cho table
 - Nâng cấp hạ tầng: Vì CSDL được lưu trên ổ cứng vì thế có thể nâng qua các ổ SSD có tốc độ đọc/ghi cao,
@@ -73,15 +73,15 @@
 - Caching: Dùng redis.
 - Thêm các điều kiện để filter data.
 
-# Single-thread là gì?
+# Single-thread là gì? :brain:
 
-# Bất đồng bộ trong JavaScript là gì ?
+# Bất đồng bộ trong JavaScript là gì ? :bomb:
 
 # Kiểu dữ liệu truthy là gì ?
 
-# Có bao nhiêu kiểu function trong JS và khác nhau ntn?
+# Có bao nhiêu kiểu function trong JS và khác nhau ntn? :dizzy:
 
-# Cách em phân tích công việc là như thế nào ?
+# Cách em phân tích công việc là như thế nào ? :robot:
 
 - Đọc tài liệu của bên product đưa xuống.
 - Xem những giao diện có trong docs.
