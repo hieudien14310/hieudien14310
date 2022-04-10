@@ -95,10 +95,12 @@
   - Sửa dữ liệu thì là PATCH/PUT.
   - Xóa dữ liệu thì là DELETE.
 
-# Em hay review code của người khác là review gì và làm sao để nó chạy nhanh hơn?
+# Em hay review code của người khác là review gì và làm sao để nó chạy nhanh hơn? :clown_face:
 
 - Hay xảy ra với xuất file excel. Người cũ thường viết 2 vòng for lồng nhau để tìm giá trị nên dẫn tới data nhiều thì đoạn code chạy lâu.
 
 > Dùng object hoặc Map để lưu data về dạng `[key]: value`, để tìm kiếm cho nhanh.
 
 > Nghĩ cách giảm số lượng vòng for trong 1 block code xuống.
+
+> Dùng Promise.all để đẩy các requests riêng biệt với nhau cùng lúc đi xử lý cũng sẽ tiết kiệm thời gian hơn là tuần tự xử lý từng request.
