@@ -77,9 +77,52 @@
 
 # Bất đồng bộ trong JavaScript là gì ? :bomb:
 
-# Kiểu dữ liệu truthy là gì ?
+# Kiểu Truthy và Falsy là gì ?
+
+- JavaScript sử dụng Type conversion(chuyển đổi dữ liệu từ kiểu dữ liệu này sang kiểu dữ liệu khác) để ép giá trị bất kỳ thành một giá trị Boolean trong một ngữ cảnh yêu cầu giá trị Boolean.
+- Truthy và falsy là những giá trị mà JavaScript khi ép về kiểu Boolean, hoặc trong một ngữ cảnh Boolean, nó sẽ cho ra giá trị true hoặc false.
+
+> **Truthy: chuỗi khác rỗng, số khác 0, tất cả object (bao gồm cả [] và {}).**
+
+> **Falsy: undefined, null, false, 0, -0, 0n, NaN, "".**
+
+# Sự khác nhau giữa toán tử || và ?? :flags:
+
+> Toán tử || (Logical OR): **Sẽ kiểm tra toán hạng bên trái có phải là truthy hay không?** Nếu phải thì trả về toán hạng bên trái, còn không thì trả về toán hạng bên phải.
+
+> Toán tử ?? (nullish coalescing operator): **Sẽ kiểm tra toán hạng bên trái có phải là null hoặc undefined không?** Nếu phải thì trả về toán hạng phải, còn không thì trả về toán hạng bên trái.
 
 # Có bao nhiêu kiểu function trong JS và khác nhau ntn? :dizzy:
+
+- **Declaration Function**: Đây là loại khai báo function cơ bản trong javascript
+
+```javascript
+function logAnything() {
+	console.log('anything')
+}
+```
+
+- **Expression Function**: Hay còn gọi là anonymous function (function không tên), là một hàm được sinh ra đúng vào thời điểm chạy của chương trình nếu biến đó được gọi.
+
+```javascript
+const anonymousFunction = function () {
+	console.log('anonymous function')
+}
+```
+
+- **Arrow Function**: Hàm này được bổ sung từ ES6.
+
+```javascript
+const arrowFunction = () => {
+	console.log('arrow function')
+}
+```
+
+|    Difference     |    Declaration     |          Expression           |             Arrow             |
+| :---------------: | :----------------: | :---------------------------: | :---------------------------: |
+| Hàm constructor() | :white_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: |
+|     Hoisting      | :white_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: |
+|   context(this)   | :white_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: |
 
 # Cách em phân tích công việc là như thế nào ? :robot:
 
