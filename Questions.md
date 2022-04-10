@@ -124,6 +124,10 @@ const arrowFunction = () => {
 |     Hoisting      | :white_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: |
 |   context(this)   | :white_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: |
 
+> Hoisting là cơ chế khi compile javascript sẽ đưa toàn bộ declarations (tức là khai báo biến hoặc function) lên trên đầu scope.
+
+> Trong Expression và Arrow function thì this không tồn tại, còn Declaration function thì this là ngữ cảnh gần nhất với cái hàm gọi nó.
+
 # Cách em phân tích công việc là như thế nào ? :robot:
 
 - Đọc tài liệu của bên product đưa xuống.
