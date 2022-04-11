@@ -77,7 +77,7 @@
 
 # Bất đồng bộ trong JavaScript là gì ? :bomb:
 
-- Xử lý bất đồng bộ trong JS là nó không chờ đoạn code trước đó thực hiện xong rồi mới thực hiện đoạn code tiếp theo, mà nó sẽ thực hiện luôn đoạn code tiếp theo. Đoạn code nào xong kq trước thì sẽ trả về trước.
+- Xử lý bất đồng bộ trong JS là nó không chờ đoạn code trước đó thực hiện xong, mà nó sẽ thực hiện luôn đoạn code tiếp theo. Đoạn code nào xong kết qủa trước thì sẽ trả về trước.
 
 > Ví dụ: Bạn nấu 3 món ăn A, B, C. Món A chuẩn bị xong và đưa lên bếp nấu, sau đó lần lượt món B và C cũng đc đưa lên bếp để nấu. Món A xong trước và được dọn lên mâm cơm. Lúc này món B nấu lâu hơn còn món C thì đã nấu xong nên món C sẽ được dọn lên mâm cơm tiếp theo, mặc dù món C được nấu sau món B và cuối cùng món B mới nấu xong thì đưa lên mâm cơm. Vậy thứ tự dọn lên mâm là A C B.
 
