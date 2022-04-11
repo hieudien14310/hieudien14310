@@ -77,6 +77,19 @@
 
 # Bất đồng bộ trong JavaScript là gì ? :bomb:
 
+- Xử lý bất đồng bộ trong JS là nó không chờ đoạn code trước đó thực hiện xong rồi mới thực hiện đoạn code tiếp theo, mà nó sẽ thực hiện luôn đoạn code tiếp theo. Đoạn code nào xong kq trước thì sẽ trả về trước.
+
+> Ví dụ: Bạn nấu 3 món ăn A, B, C. Món A chuẩn bị xong và đưa lên bếp nấu, sau đó lần lượt món B và C cũng đc đưa lên bếp để nấu. Món A xong trước và được dọn lên mâm cơm. Lúc này món B nấu lâu hơn còn món C thì đã nấu xong nên món C sẽ được dọn lên mâm cơm tiếp theo, mặc dù món C được nấu sau món B và cuối cùng món B mới nấu xong thì đưa lên mâm cơm. Vậy thứ tự dọn lên mâm là A C B.
+
+![Các thành phần để xử lý bất đồng bộ](./images/5413ad8c-7c52-4f05-9cd1-b8544d2a443c.png)
+
+- **CALL STACK** - là một dạng cấu trúc dữ liệu ghi lại vị trí các lệnh đang được thực hiện trong chương trình. Khi lệnh bắt đầu được thực hiện sẽ được đưa vào đỉnh của stack và sau khi thực hiện xong sẽ được lấy ra khỏi ngăn xếp.
+- **WEB APIs** - vể bản chất đây chính là các thread mà ta không thể truy cập trực tiếp mà chỉ có thể gọi được đến nó. Các thread này do trình duyệt cung cấp.
+- **CALLBACK QUEUE** - là một dạng cấu trúc dữ liệu với nguyên tắc First-In-First-Out (vào trước ra trước).
+- **EVENT LOOP** - có nhiệm vụ giám sát tình trạng của CALL STACK và CALLBACK QUEUE.
+
+> Đầu tiên khi chạy 1 đoạn code thì sẽ được đưa vào Call stack, sau đó đoạn code đó sẽ được đưa vào Web APIs **nếu nó do Web APIs cung cấp**, không thì trả về kết quả cho Brower. Sau khi các đoạn code trong Web APIs được thực hiện xong (cái nào xong trước thì ra trước) thì nó sẽ đẩy vào Callback Queue và Event Loop sẽ kiểm tra xem là CallStack đã trống chưa, và nếu rồi thì nó sẽ đẩy đoạn kết quả từ Callback Queue sang Callback. Và thực hiện lại như lúc đầu.
+
 # Kiểu Truthy và Falsy là gì ?
 
 - JavaScript sử dụng Type conversion(chuyển đổi dữ liệu từ kiểu dữ liệu này sang kiểu dữ liệu khác) để ép giá trị bất kỳ thành một giá trị Boolean trong một ngữ cảnh yêu cầu giá trị Boolean.
@@ -144,6 +157,8 @@ const arrowFunction = () => {
 
 # Em hay review code của người khác là review gì và làm sao để nó chạy nhanh hơn? :clown_face:
 
+- Review code của người khác, xem có chỗ nào có thể viết lại sao cho dễ đọc hơn không? xem đoạn nào làm cho code chạy chậm thì sửa lại, fomart lại code. Nhưng vẫn đảm bảo mọi thứ chạy đúng như ban đầu.
+
 - Hay xảy ra với xuất file excel. Người cũ thường viết 2 vòng for lồng nhau để tìm giá trị nên dẫn tới data nhiều thì đoạn code chạy lâu.
 
 > Dùng object hoặc Map để lưu data về dạng `[key]: value`, để tìm kiếm cho nhanh.
@@ -151,3 +166,5 @@ const arrowFunction = () => {
 > Nghĩ cách giảm số lượng vòng for trong 1 block code xuống.
 
 > Dùng Promise.all để đẩy các requests riêng biệt với nhau cùng lúc đi xử lý cũng sẽ tiết kiệm thời gian hơn là tuần tự xử lý từng request.
+
+> Tách các đoạn code logic ra thành 1 file riêng, để tốt cho việc đọc code.
