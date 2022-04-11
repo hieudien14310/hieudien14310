@@ -1,3 +1,6 @@
+/**
+ * Ví dụ về blocking và non-blocking I/O
+ */
 function now(txt: string): void {
 	const now = new Date().toISOString().replace(/T/, ' ').replace(/\..+/, '') + ' > ' + txt
 	console.log(now)

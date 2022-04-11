@@ -104,7 +104,7 @@
 
 > **Step 5**: Thỏa mản (1) và (2) thì Event Loop sẽ đẩy kết quả trong Callback Queue sang cho Callback. Và thực hiện lại Step 1.
 
-# Non-Blocking I/O là gì ?
+# Non-Blocking I/O là gì ? :cactus:
 
 - Nói 1 cách đơn giản thì có nghĩ là những công việc gì đó có dính dáng về input/output thì không thể có quyền ngăn chạn những công việc khác.
 
@@ -123,7 +123,7 @@ Nếu là trong môi trường single thread thì hàm moCuaTiem() sẽ blocking
 
 ![Ví dụ về non-blocking i/o](./images/2022-04-11_16-44.png)
 
-# Kiểu Truthy và Falsy là gì ?
+# Kiểu Truthy và Falsy là gì ? :banana:
 
 - JavaScript sử dụng Type conversion(chuyển đổi dữ liệu từ kiểu dữ liệu này sang kiểu dữ liệu khác) để ép giá trị bất kỳ thành một giá trị Boolean trong một ngữ cảnh yêu cầu giá trị Boolean.
 - Truthy và falsy là những giá trị mà JavaScript khi ép về kiểu Boolean, hoặc trong một ngữ cảnh Boolean, nó sẽ cho ra giá trị true hoặc false.
