@@ -79,6 +79,8 @@
 
 - Xử lý bất đồng bộ trong JS là nó không chờ đoạn code trước đó thực hiện xong, mà nó sẽ thực hiện luôn đoạn code tiếp theo. Đoạn code nào xong kết qủa trước thì sẽ trả về trước.
 
+> Có dính tới khái niệm non-blocking I/O
+
 > Ví dụ: Bạn nấu 3 món ăn A, B, C. Món A chuẩn bị xong và đưa lên bếp nấu, sau đó lần lượt món B và C cũng đc đưa lên bếp để nấu. Món A xong trước và được dọn lên mâm cơm. Lúc này món B nấu lâu hơn còn món C thì đã nấu xong nên món C sẽ được dọn lên mâm cơm tiếp theo, mặc dù món C được nấu sau món B và cuối cùng món B mới nấu xong thì đưa lên mâm cơm. Vậy thứ tự dọn lên mâm là A C B.
 
 ![Các thành phần để xử lý bất đồng bộ](./images/5413ad8c-7c52-4f05-9cd1-b8544d2a443c.png)
@@ -88,7 +90,34 @@
 - **CALLBACK QUEUE** - là một dạng cấu trúc dữ liệu với nguyên tắc First-In-First-Out (vào trước ra trước).
 - **EVENT LOOP** - có nhiệm vụ giám sát tình trạng của CALL STACK và CALLBACK QUEUE.
 
-> Đầu tiên khi chạy 1 đoạn code thì sẽ được đưa vào Call stack, sau đó đoạn code đó sẽ được đưa vào Web APIs **nếu nó do Web APIs cung cấp**, không thì trả về kết quả cho Brower. Sau khi các đoạn code trong Web APIs được thực hiện xong (cái nào xong trước thì ra trước) thì nó sẽ đẩy vào Callback Queue và Event Loop sẽ kiểm tra xem là CallStack đã trống chưa, và nếu rồi thì nó sẽ đẩy đoạn kết quả từ Callback Queue sang Callback. Và thực hiện lại như lúc đầu.
+> **Step 1**: Đầu tiên khi chạy 1 đoạn code thì sẽ được đưa vào Call stack.
+
+> **Step 2**: Sau đó đoạn code đó sẽ được đưa vào Web APIs **nếu nó do Web APIs cung cấp**, không thì trả về kết quả cho Brower.
+
+> **Step 3**: Sau khi các đoạn code trong Web APIs được thực hiện xong (cái nào xong trước thì ra trước) thì nó sẽ đẩy vào Callback Queue.
+
+> **Step 4**: Event Loop sẽ kiểm tra xem là CallStack đã trống chưa(1), và Callback Queue có tồn tại thành phần nào không(2).
+
+> **Step 5**: Thỏa mản (1) và (2) thì Event Loop sẽ đẩy kết quả trong Callback Queue sang cho Callback. Và thực hiện lại Step 1.
+
+# Non-Blocking I/O là gì ?
+
+- Nói 1 cách đơn giản thì có nghĩ là những công việc gì đó có dính dáng về input/output thì không thể có quyền ngăn chạn những công việc khác.
+
+```javascript
+function trongCuaHang() {
+	moCuaTiem()
+	donDepLauChui()
+	kiemKeHangHoa()
+	tiepKhach()
+}
+```
+
+Non-blocking I/O hiện hữu ở chỗ là hàm moCuaTiem() sẽ không được phép blocking hàm donDepLauChui() được thực hiện, và cho cả 2 hàm dưới.
+
+Nếu là trong môi trường single thread thì hàm moCuaTiem() sẽ blocking hàm donDepLauChui(), hàm donDepLauChui() chỉ được thực hiện khi mà hàm moCuaTiem() thực hiện xong và 2 hàm dưới cũng thế.
+
+![Ví dụ về non-blocking i/o](./images/2022-04-11_16-44.png)
 
 # Kiểu Truthy và Falsy là gì ?
 
