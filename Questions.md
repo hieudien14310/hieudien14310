@@ -75,6 +75,10 @@
 
 # Single-thread là gì? :brain:
 
+- Thread: Trong một môi trường vi tính, thread có thể như là một danh sách liệt kê những dữ kiện, công việc **phải làm theo thứ tự trước sau**.
+
+> Single-thread là một môi trường vi tính mà chỉ có 1 thread duy nhất mà thôi.
+
 # Bất đồng bộ trong JavaScript là gì ? :bomb:
 
 - Xử lý bất đồng bộ trong JS là nó không chờ đoạn code trước đó thực hiện xong, mà nó sẽ thực hiện luôn đoạn code tiếp theo. Đoạn code nào xong kết qủa trước thì sẽ trả về trước.
