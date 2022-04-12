@@ -174,6 +174,24 @@ const arrowFunction = () => {
 
 > Trong Expression và Arrow function thì this không tồn tại, còn Declaration function thì this là ngữ cảnh gần nhất với cái hàm gọi nó.
 
+# Sự khác nhau giữa NoSQL và SQL, điểm mạnh và điểm yếu của chúng? :tooth:
+
+# Điểm mạnh và điểm yếu của mongodb? :surfing_man:
+
+# Git flow là gì? :unicorn:
+
+# Array và Linked List khác nhau ntn và điểm mạnh điểm yếu ? :rat:
+
+> Điểm khác nhau quan trọng nhất là Array có cấu trúc dữ liệu dựa trên index, mỗi phần tử tương ứng với 1 index. Còn Linked list dựa vào tham chiếu, mỗi node chứa dữ liệu và các tham chiếu tới phần tử trước và sau nó.
+
+|       So sánh       |                 Array                 |                            Linked List                            |
+| :-----------------: | :-----------------------------------: | :---------------------------------------------------------------: |
+|     Kích thước      | Cố định, được định nghĩa lúc khai báo | Không cần định nghĩa, tự lớn lên hoặc tự thu gọn lại lúc thực thi |
+|   Thứ tự sắp xếp    |            Liên tiếp nhau             |                            Ngẫu nhiên                             |
+|    Cách truy cập    |      Trực tiếp(thông qua index)       |                    Truy cập 1 cách tuần tự (1)                    |
+| Chèn và xoá phần tử | Tương đối chậm, do phải shifting mảng |                 Dễ dàng, nhanh chóng và tiện lợi                  |
+|      Tìm kiếm       |   Tìm kiếm nhị phân hoặc tuyến tính   |                        tìm kiếm tuyến tính                        |
+
 # Cách em phân tích công việc là như thế nào ? :robot:
 
 - Đọc tài liệu của bên product đưa xuống.
