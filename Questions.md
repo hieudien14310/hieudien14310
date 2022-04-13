@@ -174,6 +174,18 @@ const arrowFunction = () => {
 
 > Trong Expression và Arrow function thì this không tồn tại, còn Declaration function thì this là ngữ cảnh gần nhất với cái hàm gọi nó.
 
+# Nếu "11" + 1 là "111" thì "11" - 1 thành gì ?
+
+- Trong JS, ngoài dấu + có 2 ngữ nghĩa ra thì các dấu còn lại như - (trừ), \* (nhân), / (chia) thì JS sẽ tự ép kiểu về number và thực hiện phép toán
+- Dấu + nếu gặp string thì là nối chuỗi, còn number thì là phép toán.
+
+# Sự khác biệt giữa Javascript và Typescript ?
+
+- Khác biệt rõ nhất và lớn nhất là Typescript có khai bảo kiểu dữ liệu còn JS thì không.
+- Typescript thì bắt lỗi ở lúc compile time còn JS thì ở run time.
+- Typescript hỗ trợ OOP mạnh mẽ hơn JS và tường minh hơn.
+- JS làm được những gì thì TS cũng làm đc y chang nhưng ngược lại thì không.
+
 # Sự khác nhau giữa NoSQL và SQL, điểm mạnh và điểm yếu của chúng? :tooth:
 
 # Điểm mạnh và điểm yếu của mongodb? :surfing_man:
