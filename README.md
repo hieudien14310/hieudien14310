@@ -3,7 +3,7 @@
 ```javascript
 const myself = {
 	name: 'Trần Trung Hiếu',
-	lived: 9333 'days',
+	lived: 9334 'days',
 	whoami: 'Just a human who one of 7 million people on the earth but' I am only,
 	technologies: [Javascript, Typescript, C++, MongoDB, NodeJS, ReactJS, Angular+],
 	'leetcode.com': {
@@ -23,26 +23,14 @@ const myself = {
 ### My Week 🎊️
 
 <!--START_SECTION:waka-->
-
-```text
-From: 15 April 2022 - To: 22 April 2022
-
-JavaScript   18 hrs 41 mins  ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣀⣀⣀⣀⣀⣀⣀   71.12 %
-TypeScript   2 hrs 41 mins   ⣿⣿⣦⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   10.26 %
-HTML         1 hr 54 mins    ⣿⣷⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   07.28 %
-JSON         1 hr 44 mins    ⣿⣶⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   06.65 %
-Markdown     56 mins         ⣷⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   03.59 %
-Other        8 mins          ⣄⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   00.57 %
-```
-
 <!--END_SECTION:waka-->
 
 
 ---
-**Author's quote - Lorii Myers**
+**Author's quote - Mark Bezos**
 <p align="left" style="color:tomato;">
 
-`An aspirational diet will have you dreaming of success; but it's the attachment of expectations and tangible goals that feeds the desire, persistence, and fortitude required to make the win.`
+`Not every day is going to offer us a chance to save somebody's life, but every day offers us an opportunity to affect one.`
 </p>
 
 <p align="right"><i>Thank you for visting to my github profile. Hope someday, you'll come back here again <img src="https://media4.giphy.com/media/iGYfRROBeDccvEaREx/giphy.gif" width="35px"></i></p>
