@@ -3,16 +3,16 @@
 ```javascript
 const myself = {
 	name: 'Trần Trung Hiếu',
-	lived: 9386 'days',
+	lived: 9387 'days',
 	whoami: 'Just a human who one of 7 million people on the earth but' I am only,
 	technologies: [Javascript, Typescript, C++, MongoDB, NodeJS, ReactJS, Angular+],
 	'leetcode.com': {
 		description: 'In free time, I often solve the problems by progarmming',
 		result: {
-			all: 221 / 2306,
+			all: 221 / 2308,
 			easy: 184 / 578,
-			medium: 37 / 1225,
-			hard: 0 / 503,
+			medium: 37 / 1226,
+			hard: 0 / 504,
 		}
 	}
 }
@@ -23,22 +23,14 @@ const myself = {
 ### My Week 🎊️
 
 <!--START_SECTION:waka-->
-
-```text
-From: 07 June 2022 - To: 14 June 2022
-
-TypeScript   30 hrs 17 mins  ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣀⣀⣀   87.57 %
-Other        2 hrs 57 mins   ⣿⣿⣄⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   08.57 %
-```
-
 <!--END_SECTION:waka-->
 
 
 ---
-**Author's quote - Arthur Ashe**
+**Author's quote - Paul Brown**
 <p align="left" style="color:tomato;">
 
-`Regardless of how you feel inside, always try to look like a winner. Even if you are behind, a sustained look of control and confidence can give you a mental edge that results in victory.`
+`When you win, say nothing. When you lose, say less.`
 </p>
 
 <p align="right"><i>Thank you for visting to my github profile. Hope someday, you'll come back here again <img src="https://media4.giphy.com/media/iGYfRROBeDccvEaREx/giphy.gif" width="35px"></i></p>
