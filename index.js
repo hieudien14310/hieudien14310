@@ -102,7 +102,7 @@ ${leetcode ? informationLeetCode(days) : ''}
 
 async function main() {
 	// const leetcode = await getInformationLeetCode()
-	const leetcode = ''
-	generateReadme(leetcode)
+	// const leetcode = ''
+	// generateReadme(leetcode)
 }
 main()
