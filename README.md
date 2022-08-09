@@ -1,6 +1,4 @@
-
-
-```javascript
+<!-- ```javascript
 const myself = {
 	name: 'Trần Trung Hiếu',
 	lived: 9387 'days',
@@ -16,10 +14,10 @@ const myself = {
 		}
 	}
 }
-```
-		
+``` -->
 
 ---
+
 ### My Week 🎊️
 
 <!--START_SECTION:waka-->
@@ -33,12 +31,14 @@ Other        4 hrs 44 mins   ⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 
 <!--END_SECTION:waka-->
 
-
 ---
+
 **Author's quote - Paul Brown**
+
 <p align="left" style="color:tomato;">
 
 `When you win, say nothing. When you lose, say less.`
+
 </p>
 
 <p align="right"><i>Thank you for visting to my github profile. Hope someday, you'll come back here again <img src="https://media4.giphy.com/media/iGYfRROBeDccvEaREx/giphy.gif" width="35px"></i></p>
