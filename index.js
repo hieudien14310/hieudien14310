@@ -14,6 +14,7 @@ const getQuote = async () => {
 }
 async function getInformationLeetCode() {
 	try {
+		console.log(2222)
 		const leetcode = await axios.default
 			.post(
 				'https://leetcode.com/graphql',
